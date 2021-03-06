@@ -33,7 +33,7 @@ FACEBOOK = "https://www.facebook.com/PlasmaPy-101663168274541"
 MAILING_LIST = "https://groups.google.com/forum/#!forum/plasmapy"
 # PROJECT_REPOSITORY = "https://github.com/PlasmaPy/PlasmaPy"
 PROJECT_REPOSITORY = "https://github.com/PlasmaPy/plasma-hack-week"
-CHAT = "https://discord.gg/PEjUrDT9"
+CHAT = "https://discord.gg/TFfJ3MBQ"
 TWITTER = "https://twitter.com/plasmapy"
 YOUTUBE_CHANNEL = "https://www.youtube.com/channel/UCSH6qzslhqIZKTAJmHPxIxw"
 
@@ -150,6 +150,7 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         (PLASMAPY_URL, "Back to PlasmaPy"),
+        (CHAT, "Discord"),
         # (
         #     (
         #         ("/about", "About PlasmaPy"),
