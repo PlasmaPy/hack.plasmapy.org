@@ -16,4 +16,4 @@ jobs:
     - name: Build and Deploy Nikola
       uses: getnikola/nikola-action@v3
       with:
-        dry_run: true
+        dry_run: false
