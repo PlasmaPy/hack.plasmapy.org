@@ -1,0 +1,4 @@
+Sitemap: https://hack.plasmapy.org/sitemapindex.xml
+
+User-Agent: *
+Host: hack.plasmapy.org
