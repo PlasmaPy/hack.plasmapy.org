@@ -30,7 +30,7 @@ project time. A hack week is a chance to:
 ## Join our Discord group
 
 If you would like to participate or help plan Plasma Hack Week, please
-join the [Plasma Coders](https://discord.gg/sTYXrXT3) group on Discord.
+join the [Plasma Coders](https://discord.gg/HdsZkp9M35) group on Discord.
 
 ## Registration
 
