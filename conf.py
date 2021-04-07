@@ -36,6 +36,8 @@ PROJECT_REPOSITORY = "https://github.com/PlasmaPy/plasma-hack-week"
 CHAT = "https://discord.gg/TFfJ3MBQ"
 TWITTER = "https://twitter.com/plasmapy"
 YOUTUBE_CHANNEL = "https://www.youtube.com/channel/UCSH6qzslhqIZKTAJmHPxIxw"
+CODE_OF_CONDUCT = "https://www.contributor-covenant.org/version/2/0/code_of_conduct/"
+LICENSE = "https://creativecommons.org/licenses/by/4.0/"
 
 # Nikola is multilingual!
 #
@@ -151,34 +153,26 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         (PLASMAPY_URL, "Back to PlasmaPy"),
         (CHAT, "Discord"),
-        # (
-        #     (
-        #         ("/about", "About PlasmaPy"),
-        #         ("/news", "News"),
-        #         # (PROJECT_REPOSITORY, "GitHub Repository"),
-        #         ("/conduct", "Code of Conduct"),
-        #     ),
-        #     "About",
-        # ),
-        # (
-        #     (
-        #         (CHAT, "Chat room"),
-        #         ("https://github.com/PlasmaPy/PlasmaPy/discussions", "GitHub Discussions"),
-        #         (MAILING_LIST, "Email list"),
-        #     ),
-        #     "Contact",
-        # ),
-        # (
-        #     (
-        #         ("/meetings", "Meetings"),
-        #         (FACEBOOK, "Facebook"),
-        #         (TWITTER, "Twitter"),
-        #         (YOUTUBE_CHANNEL, "YouTube"),
-        #     ),
-        #     "Community",
-        # ),
-        # ("/contribute", "Contribute"),
-        # ("/affiliates", "Affiliated Packages"),
+        (
+            (
+                ("/2021/about", "About"),
+                ("", "Registration"),
+                ("", "Schedule"),
+                # ("", "Notebooks & Tutorials"),
+                ("/2021/social", "Social Events"),
+                ("", "Organizing Committee"),
+            ),
+            "2021 Event"
+        ),
+        # ("", "Past Events"),
+        (
+            (
+                (CODE_OF_CONDUCT, "Code of Conduct"),
+                (LICENSE, "License"),
+                ("", "Contact Us"),
+            ),
+            "Extras"
+        ),
     )
 }
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
