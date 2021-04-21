@@ -169,7 +169,7 @@ NAVIGATION_LINKS = {
             (
                 (CODE_OF_CONDUCT, "Code of Conduct"),
                 (LICENSE, "License"),
-                ("", "Contact Us"),
+                ("/contact", "Contact Us"),
             ),
             "Extras"
         ),
