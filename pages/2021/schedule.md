@@ -4,7 +4,7 @@ hidetitle: True
 # Plasma Hack Week 2021: Schedule
 
 Each day of **Plasma Hack Week** will be filled with structured tutorial time,
-unstructured free hacking time, and social time.  All event in a given day will
+unstructured free hacking time, and social time.  All events in a given day will
 not exceed 5 hours, but we highly encourage any extend breakout discussions that
 may be promoted from the day's activities.
 
