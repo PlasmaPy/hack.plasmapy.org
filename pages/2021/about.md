@@ -13,7 +13,7 @@ to software engineering skills.  These topics will be present through both
 structured learning activities, such as guided tutorials, and unstructured project
 time for collaborative learning.
 
-In the week leading up to the **Plsama Hack Week**, a few more fundamentally
+In the week leading up to the **Plasma Hack Week**, a few more fundamentally
 focused tutorials will be presented on topics like the basics of Python, using 
 version control, contributing to open-source projects, etc.
 
