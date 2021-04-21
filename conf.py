@@ -157,7 +157,7 @@ NAVIGATION_LINKS = {
             (
                 ("/2021/about", "About"),
                 ("/2021/registration", "Registration"),
-                ("", "Schedule"),
+                ("/2021/schedule", "Schedule"),
                 # ("", "Notebooks & Tutorials"),
                 ("/2021/social", "Social Events"),
                 # ("", "Organizing Committee"),
