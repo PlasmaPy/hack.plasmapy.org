@@ -22,3 +22,6 @@ For information on registering please visit our
 
 For information on the schedule and pre-week tutorials please visit our
 [scheduling page](../schedule).
+
+For any additional questions please reach out to us on our 
+[Discord channel](https://discord.gg/HdsZkp9M35).
