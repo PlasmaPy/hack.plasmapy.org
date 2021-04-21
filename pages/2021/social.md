@@ -1,7 +1,7 @@
 tital: Social Events
 hidetitle: True
 
-# Social Events
+# Plasma Hack Week 2021: Social Events
 
 Since this year's Hack Week is purely virtual, and as such, we inherently
 loose th social aspect related to in person events.  In an effort to regain
