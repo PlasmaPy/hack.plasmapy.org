@@ -160,7 +160,7 @@ NAVIGATION_LINKS = {
                 ("", "Schedule"),
                 # ("", "Notebooks & Tutorials"),
                 ("/2021/social", "Social Events"),
-                ("", "Organizing Committee"),
+                # ("", "Organizing Committee"),
             ),
             "2021 Event"
         ),
