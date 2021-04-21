@@ -3,8 +3,9 @@ hidetitle: True
 
 # Social Events
 
-Since this year's Hack Week is purely virtual, we're hoping to schedule in
-some virtual social time to help gain back the social aspect of in person
-events.  We're currently planning of scheduling a social hour for every
-day and mechanisms so people can split off into their own working/social
-group.  Please stay tuned, and we'll update you with more info.
+Since this year's Hack Week is purely virtual, and as such, we inherently
+loose th social aspect related to in person events.  In an effort to regain
+some the camaraderie, we're currently scheduling social hours for every
+day of the event and will provide mechanisms so people can split off into
+their own working/social groups.  Please stay tuned, and we'll update you
+with more info.  You can also visit our [scheduling page](../schedule).
