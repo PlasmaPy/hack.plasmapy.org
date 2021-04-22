@@ -33,9 +33,11 @@ FACEBOOK = "https://www.facebook.com/PlasmaPy-101663168274541"
 MAILING_LIST = "https://groups.google.com/forum/#!forum/plasmapy"
 # PROJECT_REPOSITORY = "https://github.com/PlasmaPy/PlasmaPy"
 PROJECT_REPOSITORY = "https://github.com/PlasmaPy/plasma-hack-week"
-CHAT = "https://discord.gg/TFfJ3MBQ"
+CHAT = "https://discord.gg/HdsZkp9M35"
 TWITTER = "https://twitter.com/plasmapy"
 YOUTUBE_CHANNEL = "https://www.youtube.com/channel/UCSH6qzslhqIZKTAJmHPxIxw"
+CODE_OF_CONDUCT = "https://www.contributor-covenant.org/version/2/0/code_of_conduct/"
+LICENSE = "https://creativecommons.org/licenses/by/4.0/"
 
 # Nikola is multilingual!
 #
@@ -151,36 +153,29 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         (PLASMAPY_URL, "Back to PlasmaPy"),
         (CHAT, "Discord"),
-        # (
-        #     (
-        #         ("/about", "About PlasmaPy"),
-        #         ("/news", "News"),
-        #         # (PROJECT_REPOSITORY, "GitHub Repository"),
-        #         ("/conduct", "Code of Conduct"),
-        #     ),
-        #     "About",
-        # ),
-        # (
-        #     (
-        #         (CHAT, "Chat room"),
-        #         ("https://github.com/PlasmaPy/PlasmaPy/discussions", "GitHub Discussions"),
-        #         (MAILING_LIST, "Email list"),
-        #     ),
-        #     "Contact",
-        # ),
-        # (
-        #     (
-        #         ("/meetings", "Meetings"),
-        #         (FACEBOOK, "Facebook"),
-        #         (TWITTER, "Twitter"),
-        #         (YOUTUBE_CHANNEL, "YouTube"),
-        #     ),
-        #     "Community",
-        # ),
-        # ("/contribute", "Contribute"),
-        # ("/affiliates", "Affiliated Packages"),
+        (
+            (
+                ("/2021/about", "About"),
+                ("/2021/registration", "Registration"),
+                ("/2021/schedule", "Schedule"),
+                # ("", "Notebooks & Tutorials"),
+                ("/2021/social", "Social Events"),
+                # ("", "Organizing Committee"),
+            ),
+            "2021 Event"
+        ),
+        # ("", "Past Events"),
+        (
+            (
+                (CODE_OF_CONDUCT, "Code of Conduct"),
+                (LICENSE, "License"),
+                ("/contact", "Contact Us"),
+            ),
+            "Extras"
+        ),
     )
 }
+
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
 # although themes may not always support them. (translatable)
 # (Bootstrap 4: right-side of navbar, Bootblog 4: right side of title)
@@ -386,7 +381,7 @@ COMPILERS = {
 # Nikola supports logo display.  If you have one, you can put the URL here.
 # Final output is <img src="LOGO_URL" id="logo" alt="BLOG_TITLE">.
 # The URL may be relative to the site root.
-LOGO_URL = "/images/with-text-light-small.png"
+LOGO_URL = "/images/hack_logo(v7)_50px.png"
 
 # If you want to hide the title of your website (for example, if your logo
 # already contains the text), set this to False.
