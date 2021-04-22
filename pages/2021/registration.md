@@ -13,8 +13,8 @@ hidetitle: True
 
 Registration and attendance for the **Plasma Hack Week** is completely **FREE**.
 The registration form will collect basic info, so we can keep you informed about
-the Hack Week and tailor topics, as best as we can, during the unstructured 
-sessions to reflect your interests.  The form has an additional optional section
+the Hack Week and tailor topics to your interests, as best as we can, during the
+unstructured sessions.  The form has an additional optional section
 for submitting a "lightning talk."  A "lightning talk" is a short, 5-10 min, 
 presentation on any topic you find of interest and is relevant to the 
 **Plasma Hack Week**.

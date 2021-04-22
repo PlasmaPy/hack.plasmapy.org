@@ -1,4 +1,4 @@
-tital: Social Events
+title: Social Events
 hidetitle: True
 
 # Plasma Hack Week 2021: Social Events
