@@ -12,5 +12,5 @@ In the week prior to the Hack Week, we will host a few, optional fundamental
 tutorials focused on topics related more towards code development and
 open-source contribution.
 
-Please stay tuned to this page, since the refined scheduled will be posted
+Please stay tuned to this page, since the refined schedule will be posted
 here as the details solidify.
