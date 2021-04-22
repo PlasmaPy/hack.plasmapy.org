@@ -8,7 +8,7 @@ remotely from June 28 - July 2, 2021.  The event is **free** and sets out to
 increase awareness of open-source software for the Plasma Community:
 the benefits it can have on the community, what is currently available, and
 how to foster community development of open-source software.  As such, topics will
-range form demonstrating and using current open-source plasma software projects
+range from demonstrating and using current open-source plasma software projects
 to software engineering skills.  These topics will be presented through both
 structured learning activities, such as guided tutorials, and unstructured project
 time for collaborative learning.
