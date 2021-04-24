@@ -1,6 +1,55 @@
 title: Plasma Hack Week: June 28 – July 2, 2021
 hidetitle: True
 
+<!-- Feature Cards -->
+<div class="feature-row" style="margin-bottom: 16px">
+    <!-- Feature 1 -->
+    <div class="feature-column">
+        <a class="feature-link" href="https://discord.gg/HdsZkp9M35">
+        <div class="feature-card" 
+              style="background: linear-gradient(to left, 
+                                 var(--plasmapy-darkblue) 0%,
+                                 var(--plasmapy-light-red) 200%);">
+            <div>
+                <h1 style="color: #d8d8d8; font-weight: bold">
+                    Discord
+                </h1>
+            </div>
+        </div>
+        </a>
+    </div>
+    <!-- Feature 2 -->
+    <div class="feature-column">
+        <a class="feature-link" href="2021/about">
+        <div class="feature-card" 
+              style="background-image: none;
+                     background-color: var(--plasmapy-darkblue)">
+            <div>
+                <h1 style="color: #d8d8d8; margin-bottom: 18px">
+                    2021 Hack Week
+                </h1>
+                <img src="/images/hack_logo(v7).png" alt="" style="max-width: 90%">
+            </div>
+        </div>
+        </a>
+    </div>
+    <!-- Feature 3 -->
+    <div class="feature-column">
+        <a class="feature-link" href="2021/registration">
+        <div class="feature-card" 
+              style="background: linear-gradient(to right, 
+                                 var(--plasmapy-darkblue) 0%,
+                                 var(--plasmapy-bluegreen) 200%);">
+            <div>
+                <h1 style="color: #d8d8d8; font-weight: bold">
+                    Registration
+                </h1>
+            </div>
+        </div>
+        </a>
+    </div>
+</div>
+
 Hello world!  We are pleased to announce that the inaugural **Plasma
 Hack Week** will be held remotely from June 28 – July 2, 2021.  In the
 week before the event, we will hold prequel tutorials on topics such
