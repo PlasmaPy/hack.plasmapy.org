@@ -83,7 +83,8 @@ join the [Plasma Coders](https://discord.gg/HdsZkp9M35) group on Discord.
 
 ## Registration
 
-Please check soon for registration information. 
+For information about registering please check out our 
+[2021 Hack Week registration page](./2021/registration).
 
 ## Code of conduct
 
