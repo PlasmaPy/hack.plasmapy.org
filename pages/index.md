@@ -1,4 +1,4 @@
-title: Plasma Hack Week: June 28 – July 2, 2021
+title: Plasma Hack Week
 hidetitle: True
 
 <!-- Feature Cards -->
