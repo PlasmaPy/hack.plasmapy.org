@@ -58,7 +58,7 @@ writing clean scientific software.
 
 ## What is a hack week and hacking?
 
-The term hacking has broad range of use in modern day slang.  However,
+The term hacking has a broad range of use in modern day slang.  However,
 it is often implied that hacking is done by some prodigy or expert.
 This is not necessarily the case for the **Plasma Hack Week**.  Hacking
 during our event is seen as a collaborative coding session among novices,
