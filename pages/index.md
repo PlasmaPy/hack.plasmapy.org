@@ -60,11 +60,11 @@ writing clean scientific software.
 
 The term hacking has a broad range of use in modern day slang, but
 it is commonly believed that hacking is done by some prodigy or expert.
-This is not necessarily the case for the **Plasma Hack Week**.  Hacking
-during our event is seen as a collaborative coding session among novices,
-experts, and like-minded learners to work on projects and learn from
-each other.  Hacking is learning by experiences, one of the best ways
-to further our knowledge.
+This is not the case, and definitely not the view of the 
+**Plasma Hack Week**.  Hacking during our event is seen as a collaborative
+coding session among novices, experts, and like-minded learners to work 
+on projects and learn from each other.  Hacking is learn-by-doing activity,
+one of the best ways to further our knowledge.
 
 A [hack week](https://doi.org/10.1073/pnas.1717196115) is a combination
 of a hackathon (a marathon of hacking) and a summer school.  While 
