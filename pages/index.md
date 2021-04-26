@@ -12,8 +12,13 @@ hidetitle: True
                                  var(--plasmapy-light-red) 200%);">
             <div>
                 <h1 style="color: #d8d8d8; font-weight: bold">
-                    Discord
+                    Discord - Chat
                 </h1>
+                <!--
+                <h1 style="color: #d8d8d8; font-weight: bold">
+                    Chat
+                </h1>
+                -->
             </div>
         </div>
         </a>
@@ -25,7 +30,7 @@ hidetitle: True
               style="background-image: none;
                      background-color: var(--plasmapy-darkblue)">
             <div>
-                <h1 style="color: #d8d8d8; margin-bottom: 18px">
+                <h1 style="color: #d8d8d8; margin-bottom: 18px; font-weight: bold">
                     2021 Hack Week
                 </h1>
                 <img src="/images/hack_logo(v7).png" alt="" style="max-width: 90%">
@@ -58,13 +63,11 @@ writing clean scientific software.
 
 ## What is a hack week and hacking?
 
-The term hacking has a broad range of use in modern day slang, but
-it is commonly believed that hacking is done by some prodigy or expert.
-This is not the case, and definitely not the view of the 
-**Plasma Hack Week**.  Hacking during our event is seen as a collaborative
+The term hacking has a broad range of use in modern day slang.  Hacking
+during the **Plasma Hack Week** event is seen as a collaborative
 coding session among novices, experts, and like-minded learners to work 
-on projects and learn from each other.  Hacking is learn-by-doing activity,
-one of the best ways to further our knowledge.
+on projects and learn from each other.  Hacking is a learn-by-doing 
+activity, one of the best ways to further our knowledge.
 
 A [hack week](https://doi.org/10.1073/pnas.1717196115) is a combination
 of a hackathon (a marathon of hacking) and a summer school.  While 
