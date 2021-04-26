@@ -1,5 +1,59 @@
-title: Plasma Hack Week: June 28 – July 2, 2021
+title: Plasma Hack Week
 hidetitle: True
+
+<!-- Feature Cards -->
+<div class="feature-row" style="margin-bottom: 16px">
+    <!-- Feature 1 -->
+    <div class="feature-column">
+        <a class="feature-link" href="https://discord.gg/HdsZkp9M35">
+        <div class="feature-card" 
+              style="background: linear-gradient(to left, 
+                                 var(--plasmapy-darkblue) 0%,
+                                 var(--plasmapy-light-red) 200%);">
+            <div>
+                <h1 style="color: #d8d8d8; font-weight: bold">
+                    Discord - Chat
+                </h1>
+                <!--
+                <h1 style="color: #d8d8d8; font-weight: bold">
+                    Chat
+                </h1>
+                -->
+            </div>
+        </div>
+        </a>
+    </div>
+    <!-- Feature 2 -->
+    <div class="feature-column">
+        <a class="feature-link" href="2021/about">
+        <div class="feature-card" 
+              style="background-image: none;
+                     background-color: var(--plasmapy-darkblue)">
+            <div>
+                <h1 style="color: #d8d8d8; margin-bottom: 18px; font-weight: bold">
+                    2021 Hack Week
+                </h1>
+                <img src="/images/hack_logo(v7).png" alt="" style="max-width: 90%">
+            </div>
+        </div>
+        </a>
+    </div>
+    <!-- Feature 3 -->
+    <div class="feature-column">
+        <a class="feature-link" href="2021/registration">
+        <div class="feature-card" 
+              style="background: linear-gradient(to right, 
+                                 var(--plasmapy-darkblue) 0%,
+                                 var(--plasmapy-bluegreen) 200%);">
+            <div>
+                <h1 style="color: #d8d8d8; font-weight: bold">
+                    Registration
+                </h1>
+            </div>
+        </div>
+        </a>
+    </div>
+</div>
 
 Hello world!  We are pleased to announce that the inaugural **Plasma
 Hack Week** will be held remotely from June 28 – July 2, 2021.  In the
@@ -7,14 +61,20 @@ week before the event, we will hold prequel tutorials on topics such
 as Python, git & GitHub, contributing to an open source project, and
 writing clean scientific software.  
 
-## What is a hack week?
+## What is a hack week and hacking?
+
+The term hacking has a broad range of use in modern day slang.  Hacking
+during the **Plasma Hack Week** event is seen as a collaborative
+coding session among novices, experts, and like-minded learners to work 
+on projects and learn from each other.  Hacking is a learn-by-doing 
+activity, one of the best ways to further our knowledge.
 
 A [hack week](https://doi.org/10.1073/pnas.1717196115) is a combination
-of a hackathon and a summer school.  While hackathons have traditionally
-prioritized collaborative code development activities, a hack week
-includes a pedagogical component.  Hack weeks typically have both 
-structured learning activities such as tutorials as well as unstructured
-project time. A hack week is a chance to:
+of a hackathon (a marathon of hacking) and a summer school.  While 
+hackathons have traditionally prioritized collaborative code development
+activities, a hack week includes a teaching component.  Hack weeks 
+typically have both structured learning activities (such as tutorials) as
+well as unstructured project time. A hack week is a chance to:
  
 - Learn how to contribute to an open source project;
 - Learn new software development skills with peers;
@@ -34,7 +94,8 @@ join the [Plasma Coders](https://discord.gg/HdsZkp9M35) group on Discord.
 
 ## Registration
 
-Please check soon for registration information. 
+For information about registering please check out our 
+[2021 Hack Week registration page](./2021/registration).
 
 ## Code of conduct
 
