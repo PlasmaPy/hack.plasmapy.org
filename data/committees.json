@@ -1,0 +1,40 @@
+{
+  "2021HW": {
+    "yang": {
+      "name": "Stephanie Yirui Yang",
+      "affiliation": "United Kingdom",
+      "url": "https://github.com/Stephanieyang0",
+      "image": "/images/2021HW/yang.jpg"
+    },
+    "schaffner": {
+      "name": "David A. Schaffner",
+      "affiliation": "Bryn Mawr College",
+      "url": "https://www.brynmawr.edu/people/david-schaffner",
+      "image": "/images/2021HW/dschaffner.jpg"
+    },
+    "marascu": {
+      "name": "Valentina Marascu, PhD",
+      "affiliation": "National Institute for Lasers, Plasma and Radiation Physics",
+      "url": "https://publons.com/researcher/3676530/valentina-marascu/",
+      "image": "/images/2021HW/marascu.jpg"
+    },
+    "smith": {
+      "name": "Sterling P. Smith",
+      "affiliation": "General Atomics",
+      "url": null,
+      "image": null
+    },
+    "everson": {
+      "name": "Erik T. Everson",
+      "affiliation": "University of California, Los Angeles",
+      "url": "https://github.com/rocco8773",
+      "image": "/images/2021HW/everson.png"
+    },
+    "murphy": {
+      "name": "Nick A. Murphy",
+      "affiliation": "Harvard-Smithsonian Center for Astrophysics",
+      "url": "https://lweb.cfa.harvard.edu/~namurphy/",
+      "image": "/images/2021HW/murphy.jpg"
+    }
+  }
+}
