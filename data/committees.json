@@ -35,6 +35,12 @@
       "affiliation": "Harvard-Smithsonian Center for Astrophysics",
       "url": "https://lweb.cfa.harvard.edu/~namurphy/",
       "image": "/images/2021HW/murphy.jpg"
+    },
+    "stańczak": {
+        "name": "Dominik Stańczak",
+        "affiliation": "Institute of Plasma Physics and Laser Microfusion",
+        "url": "https://github.com/StanczakDominik/",
+        "image": "/images/2021HW/dominik.jpg"
     }
   }
 }
