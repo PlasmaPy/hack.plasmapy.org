@@ -41,6 +41,12 @@
         "affiliation": "Institute of Plasma Physics and Laser Microfusion",
         "url": "https://github.com/StanczakDominik/",
         "image": "/images/2021HW/dominik.jpg"
+    },
+    "qudsi": {
+      "name": "Ramiz Qudsi",
+      "affiliation": "University of Delaware",
+      "url": "https://orcid.org/0000-0001-8358-0482",
+      "image": "/images/2021HW/qudsi.jpg"
     }
   }
 }
