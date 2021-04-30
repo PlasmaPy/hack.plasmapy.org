@@ -9,6 +9,8 @@
         if affiliation is None:
             affiliation == ""
         link = content["url"]
+        if link is None:
+            link = ""
         image = content["image"]
         if image is None or image == "":
             image = "/images/blank-profile-picture-973460_1280-pixabay.png"
