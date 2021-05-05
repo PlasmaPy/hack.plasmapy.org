@@ -7,6 +7,12 @@ var tipuesearch = {
       "url": "https://hack.plasmapy.org/2021/about/"
     },
     {
+      "title": "2021 Hack Week Organizing Committee",
+      "text": "Plasma Hack Week 2021: Organizing Committee\n\n\n\n\n\n\n        \n            \n    \n    \n        \n            \n                Erik T. Everson\n                University of California, Los Angeles\n            \n        \n        \n\n        \n        \n            \n    \n    \n        \n            \n                Valentina Marascu, PhD\n                National Institute for Lasers, Plasma and Radiation Physics\n            \n        \n        \n\n        \n        \n            \n    \n    \n        \n            \n                Nick Murphy\n                Center for Astrophysics | Harvard & Smithsonian\n            \n        \n        \n\n        \n        \n            \n    \n    \n        \n            \n                Ramiz Qudsi\n                University of Delaware\n            \n        \n        \n\n        \n        \n            \n    \n    \n        \n            \n                David A. Schaffner\n                Bryn Mawr College\n            \n        \n        \n\n        \n        \n            \n    \n    \n        \n            \n                Sterling P. Smith\n                General Atomics\n            \n        \n        \n\n        \n        \n            \n    \n    \n        \n            \n                Dominik Sta\u0144czak\n                Institute of Plasma Physics and Laser Microfusion\n            \n        \n        \n\n        \n        \n            \n    \n    \n        \n            \n                Stephanie Yirui Yang\n                United Kingdom",
+      "tags": "",
+      "url": "https://hack.plasmapy.org/2021/committee/"
+    },
+    {
       "title": "2021 Hack Week Registration",
       "text": "Plasma Hack Week 2021: Registration\n\n    \n        Registration Form\n    \n\n\nRegistration and attendance for the Plasma Hack Week is completely FREE.\nThe registration form will collect basic info, so we can keep you informed about\nthe Hack Week and tailor topics to your interests, as best as we can, during the\nunstructured sessions.\nThe form has an additional optional section for proposing a \"lightning talk\" \nif you are interested in giving one.  A \"lightning talk\" is a short, 5-10 min,\npresentation on any topic you find of interest and is relevant to the\nPlasma Hack Week.",
       "tags": "",
