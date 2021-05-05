@@ -21,8 +21,8 @@
     "smith": {
       "name": "Sterling P. Smith",
       "affiliation": "General Atomics",
-      "url": null,
-      "image": null
+      "url": "https://github.com/smithsp",
+      "image": "/images/2021HW/smith.jpg"
     },
     "everson": {
       "name": "Erik T. Everson",
