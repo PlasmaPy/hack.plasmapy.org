@@ -1,0 +1,53 @@
+## -*- coding: utf-8 -*-
+
+<%def name="card(content)">
+    <%
+        name = content["name"]
+        if name is None or name == "":
+            raise ValueError("A valid name must be entered for 'name'.")
+        affiliation = content["affiliation"]
+        if affiliation is None:
+            affiliation == ""
+        link = content["url"]
+        if link is None:
+            link = ""
+        image = content["image"]
+        if image is None or image == "":
+            image = "/images/blank-profile-picture-973460_1280-pixabay.png"
+    %>
+    <a class="feature-link" href="${link}">
+        <div class="feature-card"
+             style="height: 100%; width: 100%;
+                    padding: 0;
+                    background-image: url('${image}')">
+            <div class="committee">
+                <p style="font-weight: bold;
+                          opacity: 100%;
+                          font-size: larger;
+                          margin-bottom: 6px">${name}</p>
+                <p style="margin: auto">${affiliation}</p>
+            </div>
+        </div>
+        </a>
+</%def>
+
+
+<%
+    if event is UNDERFINED:
+        raise AttributeError(
+            "'build_committee' requires the name of the event 'event'"
+        )
+    event_dict = global_data["committees"][event]
+    members = sorted(event_dict.keys(), key=str.casefold)
+%>
+<div class="feature-row"
+     style="margin: 18px auto; text-align: center">
+    % for member in members:
+        <div class="feature-column"
+             style="width: 240px; height: 320px;
+                        padding: 0; margin: 6px 10px;
+                        float: none; display: inline-block">
+            ${self.card(event_dict[member])}
+        </div>
+    % endfor
+</div>

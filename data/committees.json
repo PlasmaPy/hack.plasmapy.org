@@ -1,0 +1,52 @@
+{
+  "2021HW": {
+    "yang": {
+      "name": "Stephanie Yirui Yang",
+      "affiliation": "United Kingdom",
+      "url": "https://github.com/Stephanieyang0",
+      "image": "/images/2021HW/yang.jpg"
+    },
+    "schaffner": {
+      "name": "David A. Schaffner",
+      "affiliation": "Bryn Mawr College",
+      "url": "https://www.brynmawr.edu/people/david-schaffner",
+      "image": "/images/2021HW/dschaffner.jpg"
+    },
+    "marascu": {
+      "name": "Valentina Marascu, PhD",
+      "affiliation": "National Institute for Lasers, Plasma and Radiation Physics",
+      "url": "https://publons.com/researcher/3676530/valentina-marascu/",
+      "image": "/images/2021HW/marascu.jpg"
+    },
+    "smith": {
+      "name": "Sterling P. Smith",
+      "affiliation": "General Atomics",
+      "url": "https://github.com/smithsp",
+      "image": "/images/2021HW/smith.jpg"
+    },
+    "everson": {
+      "name": "Erik T. Everson",
+      "affiliation": "University of California, Los Angeles",
+      "url": "https://github.com/rocco8773",
+      "image": "/images/2021HW/everson.png"
+    },
+    "murphy": {
+      "name": "Nick Murphy",
+      "affiliation": "Center for Astrophysics | Harvard & Smithsonian",
+      "url": "https://lweb.cfa.harvard.edu/~namurphy/",
+      "image": "/images/2021HW/murphy.jpg"
+    },
+    "stańczak": {
+        "name": "Dominik Stańczak",
+        "affiliation": "Institute of Plasma Physics and Laser Microfusion",
+        "url": "https://github.com/StanczakDominik/",
+        "image": "/images/2021HW/dominik.jpg"
+    },
+    "qudsi": {
+      "name": "Ramiz Qudsi",
+      "affiliation": "University of Delaware",
+      "url": "https://orcid.org/0000-0001-8358-0482",
+      "image": "/images/2021HW/qudsi.jpg"
+    }
+  }
+}
