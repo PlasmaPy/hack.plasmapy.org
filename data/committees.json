@@ -47,6 +47,12 @@
       "affiliation": "University of Delaware",
       "url": "https://orcid.org/0000-0001-8358-0482",
       "image": "/images/2021HW/qudsi.jpg"
+    },
+    "vincena": {
+      "name": "Steve Vincena",
+      "affiliation": "University of California, Los Angeles",
+      "url": "https://plasma.physics.ucla.edu",
+      "image": "/images/2021HW/vincena.jpg"
     }
   }
 }
