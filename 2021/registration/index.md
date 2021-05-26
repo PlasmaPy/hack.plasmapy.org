@@ -16,7 +16,7 @@ The registration form will collect basic info, so we can keep you informed about
 the Hack Week and tailor topics to your interests, as best as we can, during the
 unstructured sessions.
 
-The form has an additional optional section for proposing a "lightning talk" 
-if you are interested in giving one.  A "lightning talk" is a short, 5-10 min,
-presentation on any topic you find of interest and is relevant to the
-**Plasma Hack Week**.
+The registration form has an option to propose a **lightning talk** if you
+are interested in giving one.  A lightning talk is an informal ∼5 minute
+talk on any topic of interest to Hack Week participants.  For more 
+information on lightning talks, see the [schedule page][./2021/schedule].
