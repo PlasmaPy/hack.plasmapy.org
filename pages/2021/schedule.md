@@ -12,6 +12,29 @@ This year's Hack Week will be held from June 28 to July 2.  Please stay
 tuned to this page, since the refined schedule will be posted here as
 the details solidify.  
 
+## Monday, June 28
+
+ - 15:00 — Welcome!
+ - 15:10 — Code of conduct
+ - 15:20 — How this week will work
+
+
+
+
+
+
+## Tuesday, June 29
+
+
+## Wednesday, June 30
+
+
+## Thursday, July 1
+
+
+## Friday, July 2
+
+
 ## Prequel tutorials on scientific Python
 
 In the week prior to the Hack Week, we will hold about three hour-long
