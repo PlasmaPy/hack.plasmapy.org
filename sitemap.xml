@@ -7,42 +7,46 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://hack.plasmapy.org/</loc>
-  <lastmod>2021-05-26T14:40:00Z</lastmod>
+  <lastmod>2021-06-02T00:16:00Z</lastmod>
  </url>
  <url>
   <loc>https://hack.plasmapy.org/2021/about/</loc>
-  <lastmod>2021-05-26T14:40:00Z</lastmod>
+  <lastmod>2021-06-02T00:16:00Z</lastmod>
  </url>
  <url>
   <loc>https://hack.plasmapy.org/2021/committee/</loc>
-  <lastmod>2021-05-26T14:40:00Z</lastmod>
+  <lastmod>2021-06-02T00:16:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://hack.plasmapy.org/2021/python/</loc>
+  <lastmod>2021-06-02T00:16:00Z</lastmod>
  </url>
  <url>
   <loc>https://hack.plasmapy.org/2021/registration/</loc>
-  <lastmod>2021-05-26T14:40:00Z</lastmod>
+  <lastmod>2021-06-02T00:16:00Z</lastmod>
  </url>
  <url>
   <loc>https://hack.plasmapy.org/2021/schedule/</loc>
-  <lastmod>2021-05-26T14:40:00Z</lastmod>
+  <lastmod>2021-06-02T00:16:00Z</lastmod>
  </url>
  <url>
   <loc>https://hack.plasmapy.org/2021/social/</loc>
-  <lastmod>2021-05-26T14:40:00Z</lastmod>
+  <lastmod>2021-06-02T00:16:00Z</lastmod>
  </url>
  <url>
   <loc>https://hack.plasmapy.org/archive.html</loc>
-  <lastmod>2021-05-26T14:40:00Z</lastmod>
+  <lastmod>2021-06-02T00:16:00Z</lastmod>
  </url>
  <url>
   <loc>https://hack.plasmapy.org/categories/</loc>
-  <lastmod>2021-05-26T14:40:00Z</lastmod>
+  <lastmod>2021-06-02T00:16:00Z</lastmod>
  </url>
  <url>
   <loc>https://hack.plasmapy.org/contact/</loc>
-  <lastmod>2021-05-26T14:40:00Z</lastmod>
+  <lastmod>2021-06-02T00:16:00Z</lastmod>
  </url>
  <url>
   <loc>https://hack.plasmapy.org/news/</loc>
-  <lastmod>2021-05-26T14:40:00Z</lastmod>
+  <lastmod>2021-06-02T00:16:00Z</lastmod>
  </url>
 </urlset>
