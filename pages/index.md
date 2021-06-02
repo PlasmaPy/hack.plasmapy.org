@@ -56,9 +56,7 @@ hidetitle: True
 </div>
 
 Hello world!  We are pleased to announce that the inaugural **Plasma
-Hack Week** will be held remotely from June 28 – July 2, 2021.  In the
-week before the event, we will hold two [prequel
-tutorials](./2021/python) that will introduce the essentials of Python. 
+Hack Week** will be held remotely from June 28 – July 2, 2021.  
 
 ## What is a hack week and hacking?
 
@@ -99,7 +97,7 @@ For information about registering please check out our
 ## Python tutorials
 
 We will hold two [tutorials to introduce Python](./2021/python) to 
-participants who are new to Python.  These tutorials will be held during
+participants who are new to Python.  These tutorials will be held 
 the week before the Hack Week on Monday, June 21 and Tuesday, June 22 at
 15 UTC (4 pm CET / 11 am EDT / 8 am PDT).
 
