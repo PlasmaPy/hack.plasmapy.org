@@ -14,6 +14,7 @@ information for the Python tutorials.
 ## Tentative schedule
 
 Monday, June 21 at 15 UTC
+
  * Why use Python?
  * Jupyter notebooks  
  * Python data types
@@ -21,5 +22,6 @@ Monday, June 21 at 15 UTC
  * Writing functions   
   
 Tuesday, June 22 at 15 UTC
+
  * Using [NumPy](https://numpy.org/) to work with numerical data
  * Plotting numerical data with matplotlib
