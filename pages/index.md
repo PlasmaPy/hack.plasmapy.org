@@ -96,6 +96,13 @@ join the [Plasma Coders](https://discord.gg/HdsZkp9M35) group on Discord.
 For information about registering please check out our 
 [2021 Hack Week registration page](./2021/registration).
 
+## Python tutorials
+
+We will hold two [tutorials to introduce Python](./2021/python) to 
+participants who are new to Python.  These tutorials will be held during
+the week before the Hack Week on Monday, June 21 and Tuesday, June 22 at
+15 UTC (4 pm CET / 11 am EDT / 8 am PDT).
+
 ## Code of conduct
 
 Plasma Hack Week has adopted the [Contributor Covenant Code of
