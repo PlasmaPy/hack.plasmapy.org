@@ -15,8 +15,10 @@ Python](https://merely-useful.tech/py-rse/).
 
 ## [Python](https://www.python.org/)
  
- - [Official Python documentation](https://docs.python.org/3/) (including a [Python tutorial](https://docs.python.org/3/tutorial/))
+ - [Official Python documentation](https://docs.python.org/3/) (including
+   a [Python tutorial](https://docs.python.org/3/tutorial/))
  - [PEP 8 style guide for Python](https://www.python.org/dev/peps/pep-0008/)
+ - [Python Tutorial for Beginners](https://www.youtube.com/watch?v=mJEpimi_tFo)
  
 ### Testing Python software
 
