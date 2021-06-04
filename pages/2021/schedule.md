@@ -4,7 +4,7 @@ hidetitle: True
 # Plasma Hack Week 2021: Schedule
 
 Each day of **Plasma Hack Week** will be filled with structured tutorial
-time, unstructured free hacking time, and social time.  All pre-planned
+time, social time, and unstructured free hacking time.  All pre-planned
 events will not exceed 5 hours in any given day, and we highly encourage
 any breakout discussions and hack sessions that may be inspired from the
 day's activities.
@@ -19,7 +19,8 @@ events each day will be:
  * A two-hour hack session from 18:00–20:00 UTC
    (6–8 pm CET, 2–4 pm ET, 11 am – 1 pm PT)
    
-Please stay tuned to this page, since the refined schedule will be
+We encourage participants to schedule additional events during the hack
+week. Please stay tuned to this page, since the refined schedule will be
 posted here as the details solidify.  
 
 ## Prequel tutorials on scientific Python
