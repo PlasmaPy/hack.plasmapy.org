@@ -20,17 +20,16 @@ events each day will be:
    (6–8 pm CET, 2–4 pm ET, 11 am – 1 pm PT)
    
 We encourage participants to schedule additional events during the hack
-week. Please stay tuned to this page, since the refined schedule will be
-posted here as the details solidify.  
+week, and announce them on Discord. Please stay tuned to this page,
+since more information will be posted here as the details solidify.  
 
 ## Prequel tutorials on scientific Python
 
-In the week prior to the Hack Week, we will hold about three hour-long
-tutorials that will cover the fundamentals of using Python for science. 
-These tutorials are intended for students and scientists who have limited
-experience using Python.  We will cover topics such as Python data types,
-writing functions, using [NumPy](https://numpy.org/) arrays, and plotting
-data with [matplotlib](https://matplotlib.org/).
+We will hold two [tutorials to introduce Python](./2021/python) to 
+participants who are new to Python.  These tutorials will be held 
+the week before the Hack Week on Monday, June 21 and Tuesday, June 22 at
+15 UTC (4 pm CET / 11 am EDT / 8 am PDT).  Each tutorial will last about
+one hour.
 
 ## Tutorials during the Hack Week
 
@@ -40,7 +39,7 @@ introduction to a particular software package or technique.  Likely
 topics include version control with git/GitHub, how to contribute to an
 open source software project, getting started with PlasmaPy or OMFIT,
 and writing software tests.  We will also hold shorter tutorials 
-(∼20–30 min) that will provide an interactive demonstration of the
+(∼30 min) that will provide an interactive demonstration of the
 highlights of a particular software package.
 
 ## Lightning talks
