@@ -169,6 +169,7 @@ NAVIGATION_LINKS = {
         (
             (
                 (CODE_OF_CONDUCT, "Code of Conduct"),
+                ("resources", "Resources"),
                 (LICENSE, "License"),
                 ("/contact", "Contact Us"),
             ),
