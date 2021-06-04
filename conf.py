@@ -159,7 +159,7 @@ NAVIGATION_LINKS = {
                 ("/2021/registration", "Registration"),
                 ("/2021/schedule", "Schedule"),
                 # ("", "Notebooks & Tutorials"),
-                ("2021/python", "Python Tutorials"),
+                ("/2021/python", "Python Tutorials"),
                 ("/2021/social", "Social Events"),
                 ("/2021/committee", "Organizing Committee"),
             ),
@@ -169,7 +169,7 @@ NAVIGATION_LINKS = {
         (
             (
                 (CODE_OF_CONDUCT, "Code of Conduct"),
-                ("resources", "Resources"),
+                ("/resources", "Resources"),
                 (LICENSE, "License"),
                 ("/contact", "Contact Us"),
             ),
