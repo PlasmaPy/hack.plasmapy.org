@@ -48,7 +48,7 @@ Python](https://merely-useful.tech/py-rse/).
 ## Plasma software
 
  - [PlasmaPy](https://docs.plasmapy.org/en/latest)
- - [OMFIT](https://gafusion.github.io/OMFIT-source/)
+ - [OMFIT](https://omfit.io)
  - [BOUT++](https://boutproject.github.io/)
  - [GKEYLL](https://gkeyll.readthedocs.io/en/latest/)  
  - [SunPy](https://docs.sunpy.org)
