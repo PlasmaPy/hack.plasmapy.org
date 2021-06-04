@@ -9,9 +9,18 @@ events will not exceed 5 hours in any given day, and we highly encourage
 any breakout discussions and hack sessions that may be inspired from the
 day's activities.
 
-This year's Hack Week will be held from June 28 to July 2.  Please stay
-tuned to this page, since the refined schedule will be posted here as
-the details solidify.  
+This year's Hack Week will be held from June 28 to July 2.  The main 
+events each day will be:
+
+ * A two-hour session with tutorials, lightning talks, and group discussion
+   from 15:00–17:00 UTC (3–5 pm CET, 11 am – 1 pm ET, 8–10 am PT)
+ * A one-hour informal social hour from 17:00–18:00 UTC 
+   (5–6 pm CET, 1–2 pm ET, 10–11 am PT)
+ * A two-hour hack session from 18:00–20:00 UTC
+   (6–8 pm CET, 2–4 pm ET, 11 am – 1 pm PT)
+   
+Please stay tuned to this page, since the refined schedule will be
+posted here as the details solidify.  
 
 ## Prequel tutorials on scientific Python
 
