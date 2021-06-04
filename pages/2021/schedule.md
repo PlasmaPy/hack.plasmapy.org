@@ -3,37 +3,15 @@ hidetitle: True
 
 # Plasma Hack Week 2021: Schedule
 
-Each day of **Plasma Hack Week** will be filled with structured tutorial time,
-unstructured free hacking time, and social time.  All events in a given day will
-not exceed 5 hours, but we highly encourage any breakout discussions that
-may be inspired from the day's activities.
+Each day of **Plasma Hack Week** will be filled with structured tutorial
+time, unstructured free hacking time, and social time.  All pre-planned
+events will not exceed 5 hours in any given day, and we highly encourage
+any breakout discussions and hack sessions that may be inspired from the
+day's activities.
 
 This year's Hack Week will be held from June 28 to July 2.  Please stay
 tuned to this page, since the refined schedule will be posted here as
 the details solidify.  
-
-## Monday, June 28
-
- - 15:00 — Welcome!
- - 15:10 — Code of conduct
- - 15:20 — How this week will work
-
-
-
-
-
-
-## Tuesday, June 29
-
-
-## Wednesday, June 30
-
-
-## Thursday, July 1
-
-
-## Friday, July 2
-
 
 ## Prequel tutorials on scientific Python
 
