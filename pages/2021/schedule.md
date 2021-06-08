@@ -25,7 +25,7 @@ since more information will be posted here as the details solidify.
 
 ## Prequel tutorials on scientific Python
 
-We will hold two [tutorials to introduce Python](./2021/python) to 
+We will hold two [tutorials to introduce Python](../2021/python) to 
 participants who are new to Python.  These tutorials will be held 
 the week before the Hack Week on Monday, June 21 and Tuesday, June 22 at
 15 UTC (4 pm CET / 11 am EDT / 8 am PDT).  Each tutorial will last about
