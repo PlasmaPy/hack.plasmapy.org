@@ -4,4 +4,5 @@ hidetitle: True
 # Contact Us
 
 If you have any questions about the **Plasma Hack Week** or want to get involved,
-then please reach out to us on our [Discord channel](https://discord.gg/HdsZkp9M35).
+then please reach out to us on our [Discord channel](https://discord.gg/HdsZkp9M35)
+or email at <hack@plasmapy.org>.
