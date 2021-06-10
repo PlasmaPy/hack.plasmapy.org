@@ -38,7 +38,7 @@ var tipuesearch = {
     },
     {
       "title": "Contact Us",
-      "text": "Contact Us\nIf you have any questions about the Plasma Hack Week or want to get involved,\nthen please reach out to us on our Discord channel.",
+      "text": "Contact Us\nIf you have any questions about the Plasma Hack Week or want to get involved,\nthen please reach out to us on our Discord channel\nor email at hack@plasmapy.org.",
       "tags": "",
       "url": "https://hack.plasmapy.org/contact/"
     },
