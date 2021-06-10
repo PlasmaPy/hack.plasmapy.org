@@ -19,6 +19,7 @@ import time
 BLOG_AUTHOR = "PlasmaPy Developers"  # (translatable)
 BLOG_TITLE = "PlasmaPy"  # (translatable)
 BLOG_DESCRIPTION = "Webpage for Hackathons hosted by PlasmaPy."  # (translatable)
+BLOG_EMAIL = "hack@plasmapy.org"
 
 # -- Links --
 # This is the main URL for your site. It will be used
@@ -981,6 +982,7 @@ CONTENT_FOOTER = (
     '- <a href="{twitter}">Twitter</a> '
     '- <a href="{youtube}">YouTube</a> '
     '- <a href="{chat}">Chat</a> '
+    '- <a href="mailto: {email}">Email</a> '
     '- Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a>'
 )
 
@@ -1009,6 +1011,7 @@ CONTENT_FOOTER_FORMATS = {
             "twitter": TWITTER,
             "youtube": YOUTUBE_CHANNEL,
             "chat": CHAT,
+            "email": BLOG_EMAIL,
         },
     )
 }
