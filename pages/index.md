@@ -101,6 +101,12 @@ participants who are new to Python.  These tutorials will be held
 the week before the Hack Week on Monday, June 21 and Tuesday, June 22 at
 15 UTC (4 pm CET / 11 am EDT / 8 am PDT).
 
+## Resources
+
+We have compiled [resources](./resources) that are likely to be useful
+for Hack Week participants.  Topics include Python, git/GitHub, and 
+research software engineering best practices.
+
 ## Code of conduct
 
 Plasma Hack Week has adopted the [Contributor Covenant Code of
