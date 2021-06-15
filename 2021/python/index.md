@@ -8,7 +8,7 @@ introduce [Python](https://www.python.org/) to students and scientists
 who are new to Python.  These tutorials will be held on Monday, June 21
 and Tuesday, June 22 at 15 UTC (4 pm CET / 11 am EDT / 8 am PDT).  Each
 tutorial will last for about an hour. Please 
-[register](./2021/registration) for the Hack Week to receive connection
+[register](./registration) for the Hack Week to receive connection
 information for the Python tutorials.
 
 ## Tentative schedule
