@@ -1,4 +1,4 @@
-title: Pre-Hack Week Python Tutorials
+title: Prequel Python Tutorials
 hidetitle: True
 
 # Plasma Hack Week 2021: Pre-Hack-Week Python Tutorials
@@ -15,13 +15,14 @@ information for the Python tutorials.
 
 Monday, June 21 at 15 UTC
 
- * Why use Python?
- * Jupyter notebooks  
- * Python data types
- * Loops and conditionals  
- * Writing functions   
+ * Python fundamentals
+ * Reading in data
+ * [NumPy](https://numpy.org/) arrays
+ * Plotting with [matplotlib](https://matplotlib.org/)  
   
 Tuesday, June 22 at 15 UTC
 
- * Using [NumPy](https://numpy.org/) to work with numerical data
- * Plotting numerical data with matplotlib
+ * Loops
+ * Lists
+ * Conditionals
+ * Functions
