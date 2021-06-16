@@ -1,7 +1,7 @@
 # Plasma Hack Week website
 
 This repository contains the code for the Plasma Hack Week website
-([`https://hack.plasmapy.org/`](https://www.plasmapy.org/)).
+([`https://hack.plasmapy.org/`](https://hack.plasmapy.org/)).
 
 ## Contributing
 
