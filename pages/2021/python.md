@@ -5,20 +5,24 @@ hidetitle: True
 
 In the week before the Hack Week, we are hosting two tutorials to
 introduce [Python](https://www.python.org/) to students and scientists
-who are new to Python.  These tutorials are being held on Monday, June 21
+who are new to Python.  These tutorials will be held on Monday, June 21
 and Tuesday, June 22 at 15 UTC (4 pm CET / 11 am EDT / 8 am PDT).  Each
 tutorial will last about an hour.
 
 ## Setup
 
+### Installing Python on your computer (recommmended)
+
 In order to be able to follow along with these tutorials, please follow
 these instructions to 
-[install Python](https://swcarpentry.github.io/python-novice-inflammation/setup.html#install-python)
-and
-[obtain the lesson materials](https://swcarpentry.github.io/python-novice-inflammation/setup.html#obtain-lesson-materials).
+ 1. [Install Python](https://swcarpentry.github.io/python-novice-inflammation/setup.html#install-python), and
+ 2. [Obtain the lesson materials](https://swcarpentry.github.io/python-novice-inflammation/setup.html#obtain-lesson-materials).
+
+### Binder link (no installation required)
 
 Alternatively, you can click on the following binder link to create an
-online Python environment that you can run from your web browser.  
+online Python environment that you can run from your web browser.  This
+environment may take a few minutes to initialize.  
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PlasmaPy/hack-week-python-intro/HEAD)
 
