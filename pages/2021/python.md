@@ -59,7 +59,7 @@ please follow these instructions.
    sub-directory.
 10. Under the "New" button (probably near the upper right corner),
     select "Python 3" to open a notebook.   
-11. Test the installing by running
+11. Test the installing by entering
    ```Python
    import numpy
    import matplotlib
