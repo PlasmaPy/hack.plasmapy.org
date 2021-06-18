@@ -60,17 +60,17 @@ please follow these instructions.
 10. Under the "New" button (probably near the upper right corner),
     select "Python 3" to open a notebook.   
 11. Test the installing by entering
-   ```Python
-   import numpy
-   import matplotlib
-   data = numpy.loadtxt(fname='inflammation-01.csv', delimiter=',')
-   matplotlib.pyplot.plot(data)
-   matplotlib.pyplot.show() 
-   ``` 
-   Press shift-enter to run the cell.  If you get a fancy plot, you're
-   all set!  If you run into any errors, please ask on the 
-   [Discord channel for the Hack Week](https://discord.gg/HdsZkp9M35)
-   in the `#tutorial-python` channel.
+
+        import numpy
+        import matplotlib
+        data = numpy.loadtxt(fname='inflammation-01.csv', delimiter=',')
+        matplotlib.pyplot.plot(data)
+        plt.show()
+
+    Press shift-enter to run the cell.  If you get a fancy plot, you're
+    all set!  If you run into any errors, please ask on the 
+    [Discord channel for the Hack Week](https://discord.gg/HdsZkp9M35)
+    in the `#tutorial-python` channel.
 
 ### Binder (no installation required)
 
