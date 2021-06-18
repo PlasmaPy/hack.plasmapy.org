@@ -101,6 +101,11 @@ participants who are new to Python.  These tutorials will be held
 the week before the Hack Week on Monday, June 21 and Tuesday, June 22 at
 15 UTC (4 pm CET / 11 am EDT / 8 am PDT).
 
+## Installing software for the Hack Week
+
+Please follow these [instructions](./2021/install) to install much of
+the software needed for the Hack Week.
+
 ## Resources
 
 We have compiled [resources](./resources) that are likely to be useful
