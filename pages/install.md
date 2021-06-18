@@ -1,10 +1,12 @@
-title: Installing Python for Plasma Hack Week
+title: Installing Software for Plasma Hack Week
 hidetitle: True
 
-# Installing Python for Plasma Hack Week
+# Installing Python
 
 The following sets of instructions are intended to get us set up with
 Python for the Plasma Hack Week.
+
+*Note: these instructions are evolving.*
 
 ## Installation with Anaconda Navigator (recommended) 
 
@@ -29,7 +31,8 @@ When this is done, you should have Anaconda Navigator installed.
    ```Python
    import plasmapy
    ```
-   and then use shift-Enter to execute the cell.   
+   and then use shift-Enter to execute the cell.  This should run
+   without giving any errors.
    
 ## Installation with `conda` from the command line
 
@@ -38,7 +41,7 @@ If you have a working installation of `conda` then you can install the
 
 1. Open a terminal.
 2. Create a folder on your computer for the Hack Week, which we'll call
-   `HackWeek`.
+   `hackweek`.  Then enter that folder.
 2. Download the `environment.yml` file by running
    ```shell
    wget https://raw.githubusercontent.com/PlasmaPy/hack-week-2021/main/environment.yml
@@ -50,10 +53,20 @@ If you have a working installation of `conda` then you can install the
    ```shell
    conda activate hackweek
    ```
-5. Test the installation    
+5. Test the environment by running
+   ```shell
+   jupyter notebook
+   ```
+   In the Jupyter notebook, run
+   ```python
+   import plasmapy
+   ```
 
 ## Binder link
 
-
+If you run into any problems with installation, you can also create a
+Binder environment to access a Python environment from your web browser.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PlasmaPy/hack-week-environment-2021/HEAD)
+
+
