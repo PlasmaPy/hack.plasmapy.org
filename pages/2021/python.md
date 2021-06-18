@@ -65,7 +65,7 @@ please follow these instructions.
    import matplotlib
    data = numpy.loadtxt(fname='inflammation-01.csv', delimiter=',')
    matplotlib.pyplot.plot(data)
-   plt.show() 
+   matplotlib.pyplot.show() 
    ``` 
    Press shift-enter to run the cell.  If you get a fancy plot, you're
    all set!  If you run into any errors, please ask on the 
