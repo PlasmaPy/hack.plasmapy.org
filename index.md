@@ -33,7 +33,7 @@ hidetitle: True
                 <h1 style="color: #d8d8d8; margin-bottom: 18px; font-weight: bold">
                     2021 Hack Week
                 </h1>
-                <img src="/images/hack_logo(v7).png" alt="" style="max-width: 90%">
+                <img src="/images/hack_logo(v7)_light.png" alt="" style="max-width: 90%">
             </div>
         </div>
         </a>
