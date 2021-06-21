@@ -5,25 +5,40 @@
         title = content["title"]
         if title is None or title == "":
             raise ValueError("A valid title must be entered for 'title'.")
-##         affiliation = content["affiliation"]
-##         if affiliation is None:
-##             affiliation == ""
         anchor = content["anchor"]
         if anchor is None:
             anchor = ""
-##         image = content["image"]
-##         if image is None or image == "":
-##             image = "/images/blank-profile-picture-973460_1280-pixabay.png"
+        presenter = content["presenter"]
+        if presenter is None or presenter == "":
+            raise ValueError("A valid presenter name must be entered for 'presenter'.")
+        coauthors = content["coauthors"]
+        ptime = content["time"]
+        abstract = content["abstract"]
+        home_url = content["home_url"]
+        repo_url = content["repo_url"]
+        docs_url = content["docs_url"]
     %>
     <a class="feature-link" name="${anchor}">
-        <div class="feature-card"
+        <div class="feature-card nohover"
              style="height: 100%; width: 100%;
-                    padding: 0;
+                    padding: 8px;
                     background-image: none">
-            <h1>${title}</h1>
-            Presenter(s): ${content["presenter"]}
-            Co-author(s): ${content["coauthors"]}
-
+            <h2>${title}</h2>
+            <p style="margin: 8px 0; font-style: italic; font-size: 90%">${ptime}</p>
+            <b>Presenter(s):</b> ${presenter}<br>
+            % if coauthors:
+                <b>Co-author(s):</b> ${coauthors}<br>
+            % endif
+            <p style="margin: 12px 0">
+                <a href="${home_url}">${home_url}</a>
+                % if repo_url:
+                     | <a href="${repo_url}">Repository</a>
+                % endif
+                % if docs_url:
+                     | <a href="${docs_url}">Documentation</a>
+                % endif
+            </p>
+            <p style="margin: 0">${abstract}</p>
         </div>
     </a>
 </%def>
