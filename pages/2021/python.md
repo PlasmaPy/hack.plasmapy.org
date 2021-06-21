@@ -11,6 +11,10 @@ tutorial will last about an hour.  This tutorial will be adapted from
 Software Carpentry's [Programming with Python
 tutorial](https://swcarpentry.github.io/python-novice-inflammation/).
 
+For connection information, please either check the email sent to
+participants or check the `tutorial-python` channel on the
+[Discord channel for the Hack Week](https://discord.gg/HdsZkp9M35).
+
 ## Tentative schedule
 
 Monday, June 21 at 15 UTC
