@@ -1,0 +1,50 @@
+## -*- coding: utf-8 -*-
+
+<%def name="card(content)">
+    <%
+        title = content["title"]
+        if title is None or title == "":
+            raise ValueError("A valid title must be entered for 'title'.")
+##         affiliation = content["affiliation"]
+##         if affiliation is None:
+##             affiliation == ""
+        anchor = content["anchor"]
+        if anchor is None:
+            anchor = ""
+##         image = content["image"]
+##         if image is None or image == "":
+##             image = "/images/blank-profile-picture-973460_1280-pixabay.png"
+    %>
+    <a class="feature-link" name="${anchor}">
+        <div class="feature-card"
+             style="height: 100%; width: 100%;
+                    padding: 0;
+                    background-image: none">
+            <h1>${title}</h1>
+            Presenter(s): ${content["presenter"]}
+            Co-author(s): ${content["coauthors"]}
+
+        </div>
+    </a>
+</%def>
+
+
+<%
+    if event is UNDERFINED:
+        raise AttributeError(
+            "'build_presenter_summaries' requires the name of the event 'event'"
+        )
+    event_dict = global_data["presenters"][event]
+    members = sorted(event_dict.keys(), key=str.casefold)
+%>
+<div class="feature-row"
+     style="margin: 18px auto; text-align: left">
+    % for member in members:
+        <div class="feature-column"
+             style="width: 100%;
+                    padding: 0; margin: 6px 10px;
+                    float: none; display: inline-block">
+            ${self.card(event_dict[member])}
+        </div>
+    % endfor
+</div>
