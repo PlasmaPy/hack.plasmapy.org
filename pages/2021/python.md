@@ -6,7 +6,7 @@ hidetitle: True
 In the week before the Hack Week, we are hosting two tutorials to
 introduce [Python](https://www.python.org/) to students and scientists
 who are new to Python.  These tutorials will be held on Monday, June 21
-and Tuesday, June 22 at 15 UTC (4 pm CET / 11 am EDT / 8 am PDT).  Each
+and Tuesday, June 22 at 15 UTC (5 pm CEST / 11 am EDT / 8 am PDT).  Each
 tutorial will last about an hour.  This tutorial will be adapted from
 Software Carpentry's [Programming with Python
 tutorial](https://swcarpentry.github.io/python-novice-inflammation/).
