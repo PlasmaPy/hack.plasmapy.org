@@ -9,8 +9,7 @@
       "abstract": "The plasmapy presentation abstract.",
       "home_url": "https://www.plasmapy.org",
       "repo_url": "https://github.com/plasmapy/plasmapy",
-      "docs_url": "https://docs.plasmapy.org",
-      "message_from_presenter": ""
+      "docs_url": "https://docs.plasmapy.org"
     }
   }
 }
