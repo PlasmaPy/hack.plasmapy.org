@@ -99,7 +99,7 @@ For information about registering please check out our
 We will hold two [tutorials to introduce Python](./2021/python) to 
 participants who are new to Python.  These tutorials will be held 
 the week before the Hack Week on Monday, June 21 and Tuesday, June 22 at
-15 UTC (4 pm CET / 11 am EDT / 8 am PDT).
+15 UTC (4 pm CEST / 11 am EDT / 8 am PDT).
 
 ## Resources
 
