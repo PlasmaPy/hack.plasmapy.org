@@ -3,11 +3,14 @@
     "dominik": {
       "title": "PlasmaPy",
       "anchor": "plasmapy",
+      "time": "Tuesday, June 29th at 8:00 am EDT",
       "presenter": "Dominik Stańczak",
       "coauthors": "PlasmaPy Developers",
-      "affiliation": "United Kingdom",
-      "url": "https://github.com/Stephanieyang0",
-      "image": "/images/2021HW/yang.jpg"
+      "abstract": "The plasmapy presentation abstract.",
+      "home_url": "https://www.plasmapy.org",
+      "repo_url": "https://github.com/plasmapy/plasmapy",
+      "docs_url": "https://docs.plasmapy.org",
+      "message_from_presenter": ""
     }
   }
 }
