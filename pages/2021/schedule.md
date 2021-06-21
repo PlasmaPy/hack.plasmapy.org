@@ -74,7 +74,7 @@ to facilitate a breakout room for you.
 We will hold two [tutorials to introduce Python](../python) to 
 participants who are new to Python.  These tutorials will be held 
 the week before the Hack Week on Monday, June 21 and Tuesday, June 22 at
-15 UTC (4 pm CEST / 11 am EDT / 8 am PDT).  Each tutorial will last about
+15 UTC (5 pm CEST / 11 am EDT / 8 am PDT).  Each tutorial will last about
 one hour.
 
 ## Types of talks
