@@ -66,7 +66,7 @@ please follow these instructions.
 11. Test the installion by entering
 
         import numpy
-        import matplotlib
+        import matplotlib.pyplot
         data = numpy.loadtxt(fname='inflammation-01.csv', delimiter=',')
         matplotlib.pyplot.plot(data)
         matplotlib.pyplot.show()
