@@ -3,28 +3,28 @@ hidetitle: True
 
 # Prequel Python Tutorials
 
-In the week before the Hack Week, we are hosting two tutorials to
+In the week before the Hack Week, we hosted two tutorials to
 introduce [Python](https://www.python.org/) to students and scientists
-who are new to Python.  These tutorials will be held on Monday, June 21
-and Tuesday, June 22 at 15 UTC (5 pm CEST / 11 am EDT / 8 am PDT).  Each
-tutorial will last about an hour.  This tutorial will be adapted from
+who are new to Python.  These tutorials were held on Monday, June 21
+and Tuesday, June 22 at 15 UTC (4 pm CET / 11 am EDT / 8 am PDT).  Each
+tutorial lasted about an hour.  This tutorial was adapted from
 Software Carpentry's [Programming with Python
 tutorial](https://swcarpentry.github.io/python-novice-inflammation/).
 
-For connection information, please either check the email sent to
-participants or check the `tutorial-python` channel on the
-[Discord channel for the Hack Week](https://discord.gg/HdsZkp9M35).
+To replciate the Python environment for this tutorial, please go to the following Binder link and open `PythonIntro2021.ipynb`.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PlasmaPy/hack-week-python-intro/HEAD)
 
 ## Tentative schedule
 
-Monday, June 21 at 15 UTC
+Day 1
 
  * Python fundamentals
  * Reading in data
  * [NumPy](https://numpy.org/) arrays
  * Plotting with [matplotlib](https://matplotlib.org/)  
   
-Tuesday, June 22 at 15 UTC
+Day 2
 
  * Loops
  * Lists
@@ -66,7 +66,7 @@ please follow these instructions.
 11. Test the installion by entering
 
         import numpy
-        import matplotlib.pyplot
+        import matplotlib
         data = numpy.loadtxt(fname='inflammation-01.csv', delimiter=',')
         matplotlib.pyplot.plot(data)
         matplotlib.pyplot.show()
@@ -76,6 +76,7 @@ please follow these instructions.
     [Discord channel for the Hack Week](https://discord.gg/HdsZkp9M35)
     in the `#tutorial-python` channel.
 
+<!---
 ### Binder (no installation required)
 
 Alternatively, you can click on the following binder link to create an
@@ -85,3 +86,4 @@ online Python environment that you can run from your web browser.
 
 After the environment initializes, go to the "New" button and select 
 "Python 3" to create a new notebook to use for the tutorial.
+--->
