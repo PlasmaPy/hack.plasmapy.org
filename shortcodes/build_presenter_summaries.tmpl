@@ -18,29 +18,28 @@
         repo_url = content["repo_url"]
         docs_url = content["docs_url"]
     %>
-    <a class="feature-link" id="${anchor}">
-        <div class="feature-card nohover"
-             style="height: 100%; width: 100%;
-                    padding: 8px;
-                    background-image: none">
-            <h2>${title}</h2>
-            <p style="margin: 8px 0; font-style: italic; font-size: 90%">${ptime}</p>
-            <b>Presenter(s):</b> ${presenter}<br>
-            % if coauthors:
-                <b>Co-author(s):</b> ${coauthors}<br>
+    <div id="${anchor}"
+         class="feature-card nohover"
+         style="height: 100%; width: 100%;
+                padding: 8px;
+                background-image: none">
+        <h2>${title}</h2>
+        <p style="margin: 8px 0; font-style: italic; font-size: 90%">${ptime}</p>
+        <b>Presenter(s):</b> ${presenter}<br>
+        % if coauthors:
+            <b>Co-author(s):</b> ${coauthors}<br>
+        % endif
+        <p style="margin: 12px 0">
+            <a href="${home_url}">${home_url}</a>
+            % if repo_url:
+                 | <a href="${repo_url}">Repository</a>
             % endif
-            <p style="margin: 12px 0">
-                <a href="${home_url}">${home_url}</a>
-                % if repo_url:
-                     | <a href="${repo_url}">Repository</a>
-                % endif
-                % if docs_url:
-                     | <a href="${docs_url}">Documentation</a>
-                % endif
-            </p>
-            <p style="margin: 0">${abstract}</p>
-        </div>
-    </a>
+            % if docs_url:
+                 | <a href="${docs_url}">Documentation</a>
+            % endif
+        </p>
+        <p style="margin: 0">${abstract}</p>
+    </div>
 </%def>
 
 
