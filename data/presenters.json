@@ -10,6 +10,17 @@
       "home_url": "https://www.plasmapy.org",
       "repo_url": "https://github.com/plasmapy/plasmapy",
       "docs_url": "https://docs.plasmapy.org"
+    },
+    "day3-2-logan": {
+      "title": "<code>xarray</code> Tutorial",
+      "anchor": "xarray",
+      "time": "Wednesday, June 30th at 12:10 pm ET",
+      "presenter": "Nikolas Logan",
+      "coauthors": "",
+      "abstract": "This tutorial will be a live demonstration of the <code>xarray</code> package. The focus will be on how <code>xarray</code> can be used to make plasma physics code and data more transparent and user friendly. To this end, we will show how <code>xarray</code>'s introduction of array dimensions and attributes \"allows for a more intuitive, more concise, and less error-prone developer experience\".",
+      "home_url": "",
+      "repo_url": "",
+      "docs_url": ""
     }
   }
 }
