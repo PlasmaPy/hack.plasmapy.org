@@ -30,15 +30,25 @@
             <b>Co-author(s):</b> ${coauthors}<br>
         % endif
         <p style="margin: 12px 0">
-            <a href="${home_url}">${home_url}</a>
+            %if home_url:
+                <a href="${home_url}">${home_url}</a>
+                % if repo_url or docs_url:
+                    <spand> | </spand>
+                % endif
+            %endif
             % if repo_url:
-                 | <a href="${repo_url}">Repository</a>
+                <a href="${repo_url}">Repository</a>
+                % if docs_url:
+                    <spand> | </spand>
+                % endif
             % endif
             % if docs_url:
-                 | <a href="${docs_url}">Documentation</a>
+                <a href="${docs_url}">Documentation</a>
             % endif
         </p>
-        <p style="margin: 0">${abstract}</p>
+        %if abstract:
+            <p style="margin: 0">${abstract}</p>
+        %endif
     </div>
 </%def>
 
@@ -56,7 +66,7 @@
     % for member in members:
         <div class="feature-column"
              style="width: 100%;
-                    padding: 0; margin: 6px 10px;
+                    padding: 0; margin: 10px 10px;
                     float: none; display: inline-block">
             ${self.card(event_dict[member])}
         </div>
