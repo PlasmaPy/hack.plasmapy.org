@@ -87,7 +87,6 @@ If you have a working installation of `conda` then you can install the
 
         import plasmapy
 
-
 ### Binder link
 
 If you run into any problems with installation, you can also create a
