@@ -3,30 +3,35 @@ hidetitle: True
 
 # Software Installation for Plasma Hack Week
 
-The following sets of instructions are intended to get us set up with
-Python for the Plasma Hack Week.
-
-*Note: these instructions are evolving.*
+This page contains instructions and links to instructions for installing
+software to be used during Plasma Hack Week.
 
 ## Python
 
 ## Installation with Anaconda Navigator (recommended) 
 
 1. Please follow these instructions for
-   [installing Anaconda](https://docs.anaconda.com/anaconda/install/).
-When this is done, you should have Anaconda Navigator installed.
-2. Create a folder on your computer for the Hack Week, which we'll call `hackweek`.
-2. To create an environment with most of the packages, download this
+   [installing Anaconda](https://docs.anaconda.com/anaconda/install/).  
+   When this is done, you should have Anaconda Navigator installed.
+2. Create a folder on your computer for the Hack Week, which we'll call
+   `hackweek`.
+2. Download this
    [`environment.yml`](https://raw.githubusercontent.com/PlasmaPy/hack-week-2021/main/environment.yml)
-   to the `hackweek` folder.
+   file to the `hackweek` folder.  You might need to use the "save page
+   as" option from your web browser menu.
 3. [Open Anaconda
    Navigator](https://docs.anaconda.com/anaconda/user-guide/getting-started/#open-navigator).
 3. Under the "Home" tab on Anaconda Navigator, search for and install
    "Jupyter Notebook".
 4. [Create an Anaconda environment](https://docs.anaconda.com/anaconda/navigator/tutorials/manage-environments/#importing-an-environment) 
-   with the `environment.yml` file.  This should create a new environment
-   called `hackweek` that has everything we need installed in it.
-5. Go to the "Environments" tab on Anaconda Navigator, and find the
+   for the Hack Week.
+   * Select the "Environment" tab.
+   * Below the list of environments, click "Import".
+   * Click the file folder icon.
+   * Navigate to and select the `environment.yml` (possibly in your
+     `Downloads` folder).
+   * Click "Import".  
+5. Under the "Environments" tab on Anaconda Navigator, find the
    `hackweek` environment.  Click on the arrow for that environment, and
    select the option to "Open with Jupyter Notebook".
 6. After Jupyter Notebook opens in your web browser, click on the button
