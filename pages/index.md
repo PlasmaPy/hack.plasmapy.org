@@ -103,8 +103,8 @@ the week before the Hack Week on Monday, June 21 and Tuesday, June 22 at
 
 ## Installing software for the Hack Week
 
-Please follow these [instructions](./2021/install) to install much of
-the software needed for the Hack Week.
+Please follow these [installation instructions](/2021/install) if you
+would like to install any of the software needed for the Hack Week.
 
 ## Resources
 
