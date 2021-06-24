@@ -51,8 +51,6 @@ Week.
     and then press shift-Enter to execute the cell.  This should run
     without giving any errors.
 
-   
-
 ### Installation with `conda` from the command line
 
 If you have a working installation of `conda` then you can install the 
@@ -61,25 +59,34 @@ If you have a working installation of `conda` then you can install the
 1. Open a terminal.
 2. Create a folder on your computer for the Hack Week, which we'll call
    `hackweek`.  Enter that folder.
-2. Download the `environment.yml` file by running
-   ```shell
-   wget https://raw.githubusercontent.com/PlasmaPy/hack-week-2021/main/environment.yml
-3. Run the following command to create the environment.
-   ```shell
-   conda env create -f environment.yml
-   ```
-4. Activate this environment by running
-   ```shell
-   conda activate hackweek
-   ```
-5. Test the environment by running
-   ```shell
-   jupyter notebook
-   ```
-   In the Jupyter notebook, run
-   ```python
-   import plasmapy
-   ```
+3. Download the `environment.yml` file by running 
+
+    <pre class="code literal-block">
+    wget https://raw.githubusercontent.com/PlasmaPy/hack-week-2021/main/environment.yml
+    </pre>
+
+4. Run the following command to create the environment.
+
+    <pre class="code literal-block">
+    conda env create -f environment.yml
+    </pre>
+
+5. Activate this environment by running
+
+    <pre class="code literal-block">
+    conda activate hackweek
+    </pre>
+
+6. Test the environment by running
+
+    <pre class="code literal-block">
+    jupyter notebook
+    </pre>
+
+    In the Jupyter notebook, run
+
+        import plasmapy
+
 
 ### Binder link
 
