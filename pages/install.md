@@ -3,12 +3,20 @@ hidetitle: True
 
 # Software Installation for Plasma Hack Week
 
-This page contains instructions and links to instructions for installing
-software to be used during Plasma Hack Week.
+This page contains instructions for installing  software to be used
+during Plasma Hack Week.  In addition, here are installation links for
+
+- [BOUT++](https://bout-dev.readthedocs.io/en/latest/user_docs/installing.html)
+- [Gkeyll](https://gkeyll.readthedocs.io/en/latest/install.html)
+- [OMFIT](https://omfit.io/install.html)
 
 ## Python
 
-## Installation with Anaconda Navigator (recommended) 
+### Installation with Anaconda Navigator (recommended) 
+
+The following instructions are designed to help us set up a Python
+environment with several of the packages to be discussed during the Hack
+Week.
 
 1. Please follow these instructions for
    [installing Anaconda](https://docs.anaconda.com/anaconda/install/).  
@@ -43,7 +51,7 @@ software to be used during Plasma Hack Week.
    and then press shift-Enter to execute the cell.  This should run
    without giving any errors.
    
-## Installation with `conda` from the command line
+### Installation with `conda` from the command line
 
 If you have a working installation of `conda` then you can install the 
 `hackweek` environment with the following steps.  
@@ -71,7 +79,7 @@ If you have a working installation of `conda` then you can install the
    import plasmapy
    ```
 
-## Binder link
+### Binder link
 
 If you run into any problems with installation, you can also create a
 Binder environment to access a Python environment from your web browser.
