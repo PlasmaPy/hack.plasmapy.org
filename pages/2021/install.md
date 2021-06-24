@@ -23,34 +23,36 @@ Week.
    When this is done, you should have Anaconda Navigator installed.
 2. Create a folder on your computer for the Hack Week, which we'll call
    `hackweek`.
-2. Download this
+3. Download this
    [`environment.yml`](https://raw.githubusercontent.com/PlasmaPy/hack-week-2021/main/environment.yml)
    file to the `hackweek` folder.  You might need to use the "save page
    as" option from your web browser menu.
-3. [Open Anaconda
+4. [Open Anaconda
    Navigator](https://docs.anaconda.com/anaconda/user-guide/getting-started/#open-navigator).
-3. Under the "Home" tab on Anaconda Navigator, search for and install
+5. Under the "Home" tab on Anaconda Navigator, search for and install
    "Jupyter Notebook".
-4. [Create an Anaconda environment](https://docs.anaconda.com/anaconda/navigator/tutorials/manage-environments/#importing-an-environment) 
+6. [Create an Anaconda environment](https://docs.anaconda.com/anaconda/navigator/tutorials/manage-environments/#importing-an-environment) 
    for the Hack Week.
-   * Select the "Environment" tab.
-   * Below the list of environments, click "Import".
-   * Click the file folder icon.
-   * Navigate to and select the `environment.yml` (possibly in your
-     `Downloads` folder).
-   * Click "Import".  
-5. Under the "Environments" tab on Anaconda Navigator, find the
+    * Select the "Environment" tab.
+    * Below the list of environments, click "Import".
+    * Click the file folder icon.
+    * Navigate to and select the `environment.yml` (possibly in your
+      `Downloads` folder).
+    * Click "Import".  
+7. Under the "Environments" tab on Anaconda Navigator, find the
    `hackweek` environment.  Click on the arrow for that environment, and
    select the option to "Open with Jupyter Notebook".
-6. After Jupyter Notebook opens in your web browser, click on the button
+8. After Jupyter Notebook opens in your web browser, click on the button
    for "New", and click on "Python 3" to open a Python notebook.
-7. Test the installation by typing
-   ```Python
-   import plasmapy
-   ```
-   and then press shift-Enter to execute the cell.  This should run
-   without giving any errors.
+9. Test the installation by typing
+
+        import plasmapy
+
+    and then press shift-Enter to execute the cell.  This should run
+    without giving any errors.
+
    
+
 ### Installation with `conda` from the command line
 
 If you have a working installation of `conda` then you can install the 
