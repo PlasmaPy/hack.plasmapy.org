@@ -3,7 +3,7 @@ hidetitle: True
 
 # Software Installation for Plasma Hack Week
 
-This page contains instructions for installing  software to be used
+This page contains instructions for installing software to be used
 during Plasma Hack Week.  In addition, here are installation links for
 
 - [BOUT++](https://bout-dev.readthedocs.io/en/latest/user_docs/installing.html)
