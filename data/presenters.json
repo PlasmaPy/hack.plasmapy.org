@@ -28,8 +28,8 @@
       "time": "Monday, June 28th at 3:30 pm ET",
       "presenter": "Erik T. Everson",
       "coauthors": null,
-      "abstract": null,
-      "home_url": null,
+      "abstract": "This tutorial will cover the creation, setup, and use of virtual environments.  Virtual environments allow you to create Python environments with differing dependencies.  This is helpful when you have task X with dependencies A and task Y with dependencies B, but the dependencies A and B conflict.  As a solution, two virtual environments can be created with the needed dependencies which you can then switch between for the two (or more) tasks.",
+      "home_url": "https://github.com/rocco8773",
       "repo_url": null,
       "docs_url": null
     },
