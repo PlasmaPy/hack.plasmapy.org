@@ -164,9 +164,8 @@
       "home_url": null,
       "repo_url": null,
       "docs_url": null
-    }
-  },
-  "day5-3-testing": {
+    },
+    "day5-3-testing": {
       "title": "Writing Tests for Scientific Software",
       "anchor": "testing",
       "time": "Friday, July 2nd at 12:10 pm ET",
@@ -177,4 +176,5 @@
       "repo_url": null,
       "docs_url": null
     }
+  }
 }
