@@ -1,0 +1,74 @@
+## -*- coding: utf-8 -*-
+
+<%def name="card(content)">
+    <%
+        title = content["title"]
+        if title is None or title == "":
+            raise ValueError("A valid title must be entered for 'title'.")
+        anchor = content["anchor"]
+        if anchor is None:
+            anchor = ""
+        presenter = content["presenter"]
+        if presenter is None or presenter == "":
+            raise ValueError("A valid presenter name must be entered for 'presenter'.")
+        coauthors = content["coauthors"]
+        ptime = content["time"]
+        abstract = content["abstract"]
+        home_url = content["home_url"]
+        repo_url = content["repo_url"]
+        docs_url = content["docs_url"]
+    %>
+    <div id="${anchor}"
+         class="feature-card nohover"
+         style="height: 100%; width: 100%;
+                padding: 8px;
+                background-image: none">
+        <h2>${title}</h2>
+        <p style="margin: 8px 0; font-style: italic; font-size: 90%">${ptime}</p>
+        <b>Presenter(s):</b> ${presenter}<br>
+        % if coauthors:
+            <b>Co-author(s):</b> ${coauthors}<br>
+        % endif
+        <p style="margin: 12px 0">
+            %if home_url:
+                <a href="${home_url}">${home_url}</a>
+                % if repo_url or docs_url:
+                    <spand> | </spand>
+                % endif
+            %endif
+            % if repo_url:
+                <a href="${repo_url}">Repository</a>
+                % if docs_url:
+                    <spand> | </spand>
+                % endif
+            % endif
+            % if docs_url:
+                <a href="${docs_url}">Documentation</a>
+            % endif
+        </p>
+        %if abstract:
+            <p style="margin: 0">${abstract}</p>
+        %endif
+    </div>
+</%def>
+
+
+<%
+    if event is UNDERFINED:
+        raise AttributeError(
+            "'build_presenter_summaries' requires the name of the event 'event'"
+        )
+    event_dict = global_data["presenters"][event]
+    members = sorted(event_dict.keys(), key=str.casefold)
+%>
+<div class="feature-row"
+     style="margin: 18px auto; text-align: left">
+    % for member in members:
+        <div class="feature-column"
+             style="width: 100%;
+                    padding: 0; margin: 10px 10px;
+                    float: none; display: inline-block">
+            ${self.card(event_dict[member])}
+        </div>
+    % endfor
+</div>
