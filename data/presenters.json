@@ -15,7 +15,7 @@
       "title": "git and GitHub Tutorial",
       "anchor": "git_github",
       "time": "Monday, June 28th at 2:00 pm ET",
-      "presenter": "Erik T. Everson and Sterling P. Smith",
+      "presenter": "Erik T. Everson and Sterling Smith",
       "coauthors": null,
       "abstract": null,
       "home_url": null,
@@ -70,12 +70,12 @@
       "title": "OMFIT",
       "anchor": "omfit",
       "time": "Wednesday, June 30th at 11:00 am ET",
-      "presenter": "Sterling P. Smith",
-      "coauthors": null,
-      "abstract": null,
-      "home_url": null,
-      "repo_url": null,
-      "docs_url": null
+      "presenter": "Sterling Smith",
+      "coauthors": "Orso Meneghini",
+      "abstract": "I will give an overview of the OMFIT framework, show how an existing physics module works, including its GUI, and show how to start a new module.",
+      "home_url": "https://omfit.io",
+      "repo_url": "https://github.com/gafusion/OMFIT-source",
+      "docs_url": "https://omfit.io"
     },
     "day3-2-xarray": {
       "title": "<code>xarray</code> Tutorial",
