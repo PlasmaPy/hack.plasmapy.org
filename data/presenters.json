@@ -17,8 +17,8 @@
       "time": "Monday, June 28th at 2:00 pm ET",
       "presenter": "Erik T. Everson and Sterling Smith",
       "coauthors": null,
-      "abstract": null,
-      "home_url": null,
+      "abstract": "In this tutorial we will cover what is <code>git</code> and GitHub; what are their differences; how they work together; and how to use them.  The demonstration will show how to use <code>git</code> and GitHub to version control our software development, which allows us to better collaborate on projects and record the project's development history.",
+      "home_url": "https://github.com/rocco8773",
       "repo_url": null,
       "docs_url": null
     },
