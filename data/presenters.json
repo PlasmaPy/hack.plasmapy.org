@@ -1,13 +1,13 @@
 {
   "2021HW": {
     "day1-1-helio": {
-      "title": "Python in Heliophysics Community",
+      "title": "Coordinating Python Development with PyHC",
       "anchor": "helio",
       "time": "Monday, June 28th at 12:10 pm ET",
       "presenter": "Julie Barnum",
-      "coauthors": null,
-      "abstract": null,
-      "home_url": null,
+      "coauthors": "Aaron Roberts, Alexandria Ware, and Shawn Polson",
+      "abstract": "This presentation serves as an introduction to the Python in Heliophysics Community (PyHC). We'll go over the motivation behind the community, as well as a general layout of how the community is structured and run.",
+      "home_url": "https://heliopython.org/",
       "repo_url": null,
       "docs_url": null
     },
