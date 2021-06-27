@@ -10,6 +10,12 @@ during Plasma Hack Week.  In addition, here are installation links for
 - [Gkeyll](https://gkeyll.readthedocs.io/en/latest/install.html)
 - [OMFIT](https://omfit.io/install.html)
 
+## `git`
+
+There are several ways to obtain `git` for your specific operating systems.
+`git` provides a great download page, <https://git-scm.com/downloads>, that
+outlines these methods, or provides a direct download when applicable.
+
 ## Python
 
 ### Installation with Anaconda Navigator (recommended) 
