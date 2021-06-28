@@ -37,9 +37,9 @@
       "title": "PlasmaPy",
       "anchor": "plasmapy",
       "time": "Tuesday, June 29th at 11:00 am ET",
-      "presenter": "Nick Murphy",
+      "presenter": "Nick Murphy and Ramiz Qudsi",
       "coauthors": "PlasmaPy Developers",
-      "abstract": null,
+      "abstract": "This tutorial will introduce the essentials of working with PlasmaPy.  We will work through some examples with Astropy's <code>units</code> and <code>constants</code> subpackages, which are both widely used in PlasmaPy.  We will then discuss PlasmaPy's <code>particles</code>, <code>formulary</code>, and <code>dispersion</code> subpackages.",
       "home_url": "https://www.plasmapy.org",
       "repo_url": "https://github.com/plasmapy/plasmapy",
       "docs_url": "https://docs.plasmapy.org"
@@ -61,10 +61,10 @@
       "time": "Tuesday, June 29th at 2:00 pm ET",
       "presenter": "Nick Murphy",
       "coauthors": null,
-      "abstract": null,
+      "abstract": "This hack session will be an opportunity to apply what we learned from the git and GitHub tutorial by making your first contribution to an open source project such as PlasmaPy.  This session will start with a demonstration of a contribution to PlasmaPy in order to improve the documentation on how to contribute to PlasmaPy.  After that demonstration, participants will be able to make a contribution to PlasmaPy or another project of their choice.",
       "home_url": null,
       "repo_url": null,
-      "docs_url": null
+      "docs_url": "https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-beginners-guide/"
     },
     "day3-1-omfit": {
       "title": "OMFIT",
@@ -94,10 +94,10 @@
       "time": "Wednesday, June 30th at 2:00 pm ET",
       "presenter": "Nick Murphy",
       "coauthors": null,
-      "abstract": null,
+      "abstract": "This hack session will start out with a short presentation on writing clean scientific software and describe clean coding strategies like: choosing meaningful variable names, writing short functions that do exactly one thing, and writing code as a top-down narrative.  Participants will then take code that they have written already and refactor it by applying these strategies.",
       "home_url": null,
       "repo_url": null,
-      "docs_url": null
+      "docs_url": "http://doi.org/10.5281/zenodo.3922957"
     },
     "day4-1-bout++": {
       "title": "BOUT++",
