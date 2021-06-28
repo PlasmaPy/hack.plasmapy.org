@@ -16,6 +16,9 @@ There are several ways to obtain `git` for your specific operating systems.
 `git` provides a great download page, <https://git-scm.com/downloads>, that
 outlines these methods, or provides a direct download when applicable.
 
+We also recommend that you [create a free GitHub account](https://github.com/join)
+in order to follow along with many of the tutorials.
+
 ## Python
 
 ### Installation with Anaconda Navigator (recommended) 
@@ -99,3 +102,18 @@ If you run into any problems with installation, you can also create a
 Binder environment to access a Python environment from your web browser.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PlasmaPy/hack-week-environment-2021/HEAD)
+
+## Integrated development environments
+
+An integrated development environment (IDE) is software used for code
+development.  IDEs typically include a source code editor as well as
+built-in tools for refactoring, version control, running tests, and 
+debugging.  
+
+* [PyCharm](https://www.jetbrains.com/pycharm/download)
+  * Community version is free and open source 
+  * To be used during git & GitHub and clean coding tutorials
+* [Visual Studio Code](https://code.visualstudio.com/)
+  * Community version is free and open source 
+* [Atom](https://atom.io/)
+  * Full version is open source
