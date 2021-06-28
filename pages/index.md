@@ -94,17 +94,17 @@ join the [Plasma Coders](https://discord.gg/HdsZkp9M35) group on Discord.
 For information about registering please check out our 
 [2021 Hack Week registration page](./2021/registration).
 
-## Python tutorials
-
-We will hold two [tutorials to introduce Python](./2021/python) to 
-participants who are new to Python.  These tutorials will be held 
-the week before the Hack Week on Monday, June 21 and Tuesday, June 22 at
-15 UTC (5 pm CEST / 11 am EDT / 8 am PDT).
-
 ## Installing software for the Hack Week
 
 Please follow these [installation instructions](/2021/install) if you
 would like to install any of the software needed for the Hack Week.
+
+Alternatively, clicking on the following binder link will initialize a
+Python environment that can be run from your browser.  This environment
+will have most of the Python packages needed for the week pre-installed,
+along with `git`. 
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PlasmaPy/hack-week-2021/HEAD)
 
 ## Resources
 
@@ -116,6 +116,13 @@ research software engineering best practices.
 
 Plasma Hack Week has adopted the [Contributor Covenant Code of
 Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).
+
+## Python tutorials
+
+We held two [tutorials to introduce Python](./2021/python) to 
+participants who are new to Python.  These tutorials were held 
+the week before the Hack Week on Monday, June 21 and Tuesday, June 22 at
+15 UTC (5 pm CEST / 11 am EDT / 8 am PDT).
 
 ## License
 
