@@ -64,7 +64,7 @@
       "abstract": null,
       "home_url": null,
       "repo_url": null,
-      "docs_url": null
+      "docs_url": "https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-beginners-guide/"
     },
     "day3-1-omfit": {
       "title": "OMFIT",
@@ -95,9 +95,9 @@
       "presenter": "Nick Murphy",
       "coauthors": null,
       "abstract": "This hack session will start out with a short presentation on writing clean scientific software and describe clean coding strategies like: choosing meaningful variable names, writing short functions that do exactly one thing, and writing code as a top-down narrative.  Participants will then take code that they have written already and refactor it by applying these strategies.",
-      "home_url": "http://doi.org/10.5281/zenodo.3922957",
+      "home_url": null,
       "repo_url": null,
-      "docs_url": null
+      "docs_url": "http://doi.org/10.5281/zenodo.3922957"
     },
     "day4-1-bout++": {
       "title": "BOUT++",
