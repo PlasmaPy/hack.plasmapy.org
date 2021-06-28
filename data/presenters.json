@@ -31,7 +31,7 @@
       "abstract": "This tutorial will cover the creation, setup, and use of virtual environments.  Virtual environments allow you to create Python environments with differing dependencies.  This is helpful when you have task X with dependencies A and task Y with dependencies B, but the dependencies A and B conflict.  As a solution, two virtual environments can be created with the needed dependencies which you can then switch between for the two (or more) tasks.",
       "home_url": "https://github.com/rocco8773",
       "repo_url": null,
-      "docs_url": null
+      "docs_url": "https://docs.python.org/3/tutorial/venv.html"
     },
     "day2-1-plasmapy": {
       "title": "PlasmaPy",
@@ -52,7 +52,7 @@
       "coauthors": null,
       "abstract": null,
       "home_url": null,
-      "repo_url": null,
+      "repo_url": "https://github.com/IRFM/divHretention",
       "docs_url": null
     },
     "day2-3-contributing": {
@@ -86,7 +86,7 @@
       "abstract": "This tutorial will be a live demonstration of the <code>xarray</code> package. The focus will be on how <code>xarray</code> can be used to make plasma physics code and data more transparent and user friendly. To this end, we will show how <code>xarray</code>'s introduction of array dimensions and attributes \"allows for a more intuitive, more concise, and less error-prone developer experience\".",
       "home_url": "",
       "repo_url": "",
-      "docs_url": ""
+      "docs_url": "http://xarray.pydata.org/"
     },
     "day3-3-clean_code": {
       "title": "<span style='color: #a64d79'>[Hack Session]</span> Clean Coding Refactoring Session",
@@ -106,9 +106,9 @@
       "presenter": "Ben Dudson",
       "coauthors": null,
       "abstract": null,
-      "home_url": null,
-      "repo_url": null,
-      "docs_url": null
+      "home_url": "https://boutproject.github.io/",
+      "repo_url": "https://github.com/boutproject/BOUT-dev",
+      "docs_url": "https://bout-dev.readthedocs.io/"
     },
     "day4-2-gkeyll": {
       "title": "Gkeyll",
@@ -118,8 +118,8 @@
       "coauthors": null,
       "abstract": null,
       "home_url": null,
-      "repo_url": null,
-      "docs_url": null
+      "repo_url": "https://github.com/ammarhakim/gkyl",
+      "docs_url": "https://gkeyll.readthedocs.io/"
     },
     "day4-3-uncertainties": {
       "title": "Uncertainties",
@@ -150,9 +150,9 @@
       "presenter": "Laura Hayes",
       "coauthors": null,
       "abstract": null,
-      "home_url": null,
-      "repo_url": null,
-      "docs_url": null
+      "home_url": "https://sunpy.org/",
+      "repo_url": "https://github.com/sunpy/sunpy",
+      "docs_url": "https://docs.sunpy.org/"
     },
     "day5-2-turbopy": {
       "title": "TurboPy",
@@ -163,7 +163,7 @@
       "abstract": null,
       "home_url": null,
       "repo_url": null,
-      "docs_url": null
+      "docs_url": "https://turbopy.readthedocs.io"
     },
     "day5-3-testing": {
       "title": "Writing Tests for Scientific Software",
@@ -174,7 +174,7 @@
       "abstract": null,
       "home_url": null,
       "repo_url": null,
-      "docs_url": null
+      "docs_url": "https://docs.pytest.org/"
     }
   }
 }
