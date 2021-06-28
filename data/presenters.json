@@ -37,7 +37,7 @@
       "title": "PlasmaPy",
       "anchor": "plasmapy",
       "time": "Tuesday, June 29th at 11:00 am ET",
-      "presenter": "Nick Murphy",
+      "presenter": "Nick Murphy and Ramiz Qudsi",
       "coauthors": "PlasmaPy Developers",
       "abstract": "This tutorial will introduce the essentials of working with PlasmaPy.  We will work through some examples with Astropy's <code>units</code> and <code>constants</code> subpackages, which are both widely used in PlasmaPy.  We will then discuss PlasmaPy's <code>particles</code>, <code>formulary</code>, and <code>dispersion</code> subpackages.",
       "home_url": "https://www.plasmapy.org",
