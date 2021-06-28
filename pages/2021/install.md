@@ -117,3 +117,11 @@ debugging.
   * Community version is free and open source 
 * [Atom](https://atom.io/)
   * Full version is open source
+
+## Unix shell
+
+Python and `git` are often used from the Unix shell, which is one of the
+most commonly used command line interfaces.  Here are instructions on 
+[installing and/or accessing the bash
+shell](https://carpentries.github.io/workshop-template/#shell), which is
+one of the most commonly used Unix shells.
