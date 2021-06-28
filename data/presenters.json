@@ -103,9 +103,9 @@
       "title": "BOUT++",
       "anchor": "bout++",
       "time": "Thursday, July 1st at 11:00 am ET",
-      "presenter": "Ben Dudson",
-      "coauthors": null,
-      "abstract": null,
+      "presenter": "Peter Hill and David Schwörer",
+      "coauthors": "Ben Dudson, Joseph Parker, David Dickinson, and John Omotani",
+      "abstract": "This tutorial will give an overview of the BOUT++ framework for solving fluid PDEs. We'll go through some simple physics models implemented in BOUT++ and talk about its capabilities, as well give a live demonstration of its Python interface, and <code>xarray</code>-based post-processing utilities.",
       "home_url": "https://boutproject.github.io/",
       "repo_url": "https://github.com/boutproject/BOUT-dev",
       "docs_url": "https://bout-dev.readthedocs.io/"
