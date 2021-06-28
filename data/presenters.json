@@ -39,7 +39,7 @@
       "time": "Tuesday, June 29th at 11:00 am ET",
       "presenter": "Nick Murphy",
       "coauthors": "PlasmaPy Developers",
-      "abstract": null,
+      "abstract": "This tutorial will introduce the essentials of working with PlasmaPy.  We will work through some examples with Astropy's <code>units</code> and <code>constants</code> subpackages, which are both widely used in PlasmaPy.  We will then discuss PlasmaPy's <code>particles</code>, <code>formulary</code>, and <code>dispersion</code> subpackages.",
       "home_url": "https://www.plasmapy.org",
       "repo_url": "https://github.com/plasmapy/plasmapy",
       "docs_url": "https://docs.plasmapy.org"
