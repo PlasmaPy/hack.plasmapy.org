@@ -61,7 +61,7 @@
       "time": "Tuesday, June 29th at 2:00 pm ET",
       "presenter": "Nick Murphy",
       "coauthors": null,
-      "abstract": null,
+      "abstract": "This hack session will be an opportunity to apply what we learned from the git and GitHub tutorial by making your first contribution to an open source project such as PlasmaPy.  This session will start with a demonstration of a contribution to PlasmaPy in order to improve the documentation on how to contribute to PlasmaPy.  After that demonstration, participants will be able to make a contribution to PlasmaPy or another project of their choice.",
       "home_url": null,
       "repo_url": null,
       "docs_url": "https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-beginners-guide/"
