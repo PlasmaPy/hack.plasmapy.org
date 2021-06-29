@@ -158,11 +158,11 @@
       "title": "TurboPy",
       "anchor": "turboPy",
       "time": "Friday, July 2nd at 11:30 am ET",
-      "presenter": "Steve Richardson and Paul Adamson",
-      "coauthors": null,
-      "abstract": null,
+      "presenter": "Steve Richardson",
+      "coauthors": "Paul Adamson",
+      "abstract": "TurboPy is a lightweight computational physics framework for rapidly prototyping new physics codes. This tutorial will introduce the turboPy framework, and give a live demonstration of how it can be used to create new computational physics \"apps\".",
       "home_url": null,
-      "repo_url": null,
+      "repo_url": "https://github.com/NRL-Plasma-Physics-Division/turbopy",
       "docs_url": "https://turbopy.readthedocs.io"
     },
     "day5-3-testing": {
