@@ -56,7 +56,9 @@ hidetitle: True
 </div>
 
 Hello world!  We are pleased to announce that the inaugural **Plasma
-Hack Week** will be held remotely from June 28 – July 2, 2021.  
+Hack Week** is being held remotely from June 28 – July 2, 2021.  Please
+check out the [**schedule**](./2021/schedule) for events happening during
+the Hack Week.
 
 ## What is a hack week and hacking?
 
