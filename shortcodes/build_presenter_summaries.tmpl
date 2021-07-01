@@ -17,6 +17,10 @@
         home_url = content["home_url"]
         repo_url = content["repo_url"]
         docs_url = content["docs_url"]
+        try:
+            home_url_txt = content["home_url_txt"]
+        except KeyError:
+            home_url_txt = home_url
     %>
     <div id="${anchor}"
          class="feature-card nohover"
@@ -31,7 +35,7 @@
         % endif
         <p style="margin: 12px 0">
             %if home_url:
-                <a href="${home_url}">${home_url}</a>
+                <a href="${home_url}">${home_url_txt}</a>
                 % if repo_url or docs_url:
                     <spand> | </spand>
                 % endif

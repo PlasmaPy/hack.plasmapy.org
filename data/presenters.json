@@ -127,10 +127,11 @@
       "time": "Thursday, July 1st at 12:10 am ET",
       "presenter": "Quinn Pratt",
       "coauthors": null,
-      "abstract": null,
-      "home_url": null,
-      "repo_url": null,
-      "docs_url": null
+      "abstract": "We will discuss linear error propagation theory, and the \"uncertainties\" python package. We will go through two examples illustrating how to handle uncertainties on fits, and propagation through simulation.",
+      "home_url": "https://docs.google.com/presentation/d/1eXwzobFoJTUb0h-y5ECiRQIm_mDFAW9RGLNbEYO6p1g/edit?usp=sharing",
+      "home_url_txt": "Slides",
+      "repo_url": "https://github.com/quinntpratt/uncertainty-quantification",
+      "docs_url": "https://pythonhosted.org/uncertainties/"
     },
     "day4-4-radiography": {
       "title": "<span style='color: #a64d79'>[Hack Session]</span> Charged Particle Radiography with PlasmaPy",
