@@ -40,14 +40,14 @@ hidetitle: True
     </div>
     <!-- Feature 3 -->
     <div class="feature-column">
-        <a class="feature-link" href="2021/schedule/#the-schedule">
+        <a class="feature-link" href="2021/exit_survey">
         <div class="feature-card" 
               style="background: linear-gradient(to right, 
                                  var(--plasmapy-darkblue) 0%,
                                  var(--plasmapy-bluegreen) 200%);">
             <div>
                 <h1 style="color: #d8d8d8; font-weight: bold">
-                    Schedule
+                    How did we do?
                 </h1>
             </div>
         </div>
