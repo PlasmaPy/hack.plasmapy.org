@@ -164,6 +164,7 @@ NAVIGATION_LINKS = {
                 ("/2021/install", "Software Installation"),
                 ("/2021/social", "Social Events"),
                 ("/2021/committee", "Organizing Committee"),
+                ("/2021/exit_survey", "How did we do?"),
             ),
             "2021 Event"
         ),
