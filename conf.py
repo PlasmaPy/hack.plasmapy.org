@@ -156,19 +156,24 @@ NAVIGATION_LINKS = {
         (CHAT, "Discord"),
         (
             (
-                ("/2021/about", "About"),
-                ("/2021/registration", "Registration"),
-                ("/2021/schedule", "Schedule"),
-                ("/2021/python", "Python Tutorials"),
-                ("/2021/tutorials", "Tutorials"),
-                ("/2021/install", "Software Installation"),
-                ("/2021/social", "Social Events"),
-                ("/2021/committee", "Organizing Committee"),
-                ("/2021/exit_survey", "How did we do?"),
+                ("/2022/about", "About"),
+                # ("/2021/registration", "Registration"),
+                # ("/2021/schedule", "Schedule"),
+                # ("/2021/python", "Python Tutorials"),
+                # ("/2021/tutorials", "Tutorials"),
+                # ("/2021/install", "Software Installation"),
+                # ("/2021/social", "Social Events"),
+                # ("/2021/committee", "Organizing Committee"),
+                # ("/2021/exit_survey", "How did we do?"),
             ),
-            "2021 Event"
+            "2022 Event"
         ),
-        # ("", "Past Events"),
+        (
+            (
+               ("/2021/about", "2021"),
+            ),
+            "Past Events",
+        ),
         (
             (
                 (CODE_OF_CONDUCT, "Code of Conduct"),
