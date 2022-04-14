@@ -74,6 +74,12 @@
       "url": null,
       "image": "/images/2022HW/johnson.png"
     },
+    "kozlowski": {
+      "name": "Pawel Koxlowski",
+      "affiliation": null,
+      "url": null,
+      "image": null
+    },
     "marascu": {
       "name": "Valentina Maărăscu, PhD",
       "affiliation": "National Institute for Lasers, Plasma and Radiation Physics",
@@ -91,6 +97,12 @@
       "affiliation": "University of Delaware",
       "url": "https://orcid.org/0000-0001-8358-0482",
       "image": "/images/2021HW/qudsi.jpg"
+    },
+    "r": {
+      "name": "Reynaldo R.",
+      "affiliation": null,
+      "url": null,
+      "image": null
     },
     "schaffner": {
       "name": "David A. Schaffner",
