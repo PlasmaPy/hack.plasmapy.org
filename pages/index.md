@@ -25,13 +25,13 @@ hidetitle: True
     </div>
     <!-- Feature 2 -->
     <div class="feature-column">
-        <a class="feature-link" href="2021/about">
+        <a class="feature-link" href="2022/about">
         <div class="feature-card" 
               style="background-image: none;
                      background-color: var(--plasmapy-darkblue)">
             <div>
                 <h1 style="color: #d8d8d8; margin-bottom: 18px; font-weight: bold">
-                    2021 Hack Week
+                    2022 Hack Week
                 </h1>
                 <img src="/images/hack_logo(v7)_light.png" alt="" style="max-width: 90%">
             </div>
