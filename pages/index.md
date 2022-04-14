@@ -68,8 +68,8 @@ coding session among novices, experts, and like-minded learners to work
 on projects and learn from each other.  Hacking is a learn-by-doing 
 activity, one of the best ways to further our knowledge.
 
-A [hack week](https://doi.org/10.1073/pnas.1717196115) is a combination
-of a hackathon (a marathon of hacking) and a summer school.  While 
+**A [hack week](https://doi.org/10.1073/pnas.1717196115) is a combination
+of a hackathon (a marathon of hacking) and a summer school.**  While 
 hackathons have traditionally prioritized collaborative code development
 activities, a hack week includes a teaching component.  Hack weeks 
 typically have both structured learning activities (such as tutorials) as
