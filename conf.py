@@ -157,14 +157,14 @@ NAVIGATION_LINKS = {
         (
             (
                 ("/2022/about", "About"),
-                # ("/2021/registration", "Registration"),
-                # ("/2021/schedule", "Schedule"),
-                # ("/2021/python", "Python Tutorials"),
-                # ("/2021/tutorials", "Tutorials"),
-                # ("/2021/install", "Software Installation"),
-                # ("/2021/social", "Social Events"),
-                # ("/2021/committee", "Organizing Committee"),
-                # ("/2021/exit_survey", "How did we do?"),
+                # ("/2022/registration", "Registration"),
+                # ("/2022/schedule", "Schedule"),
+                # ("/2022/python", "Python Tutorials"),
+                # ("/2022/tutorials", "Tutorials"),
+                # ("/2022/install", "Software Installation"),
+                # ("/2022/social", "Social Events"),
+                ("/2022/committee", "Organizing Committee"),
+                # ("/2022/exit_survey", "How did we do?"),
             ),
             "2022 Event"
         ),
