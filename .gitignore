@@ -1,5 +1,8 @@
 # Nikola Generated
 .doit.db
+.doit.db.bak
+.doit.db.dat
+.doit.db.dir
 .doit.db.db
 _site
 output/
