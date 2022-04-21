@@ -75,13 +75,13 @@
       "image": "/images/2022HW/johnson.png"
     },
     "kozlowski": {
-      "name": "Pawel Koxlowski",
-      "affiliation": null,
-      "url": null,
-      "image": null
+      "name": "Pawel M. Kozlowski",
+      "affiliation": "Los Alamos National Laboratory",
+      "url": "https://github.com/lemmatum",
+      "image": "/images/2022HW/kozlowski.jpg"
     },
     "marascu": {
-      "name": "Valentina Mărăscu, PhD",
+      "name": "Valentina Marascu",
       "affiliation": "National Institute for Lasers, Plasma and Radiation Physics",
       "url": "https://orcid.org/0000-0002-5170-1398",
       "image": "/images/2022HW/marascu.jpg"
@@ -93,16 +93,10 @@
       "image": "/images/2021HW/murphy.jpg"
     },
     "qudsi": {
-      "name": "Ramiz Qudsi",
-      "affiliation": "University of Delaware",
-      "url": "https://orcid.org/0000-0001-8358-0482",
-      "image": "/images/2021HW/qudsi.jpg"
-    },
-    "r": {
-      "name": "Reynaldo R.",
-      "affiliation": null,
-      "url": null,
-      "image": null
+      "name": "Ramiz A. Qudsi",
+      "affiliation": "Center for Space Physics, Boston University",
+      "url": "https://qudsiramiz.github.io/",
+      "image": "/images/2022HW/qudsi.jpg"
     },
     "schaffner": {
       "name": "David A. Schaffner",
@@ -115,6 +109,12 @@
       "affiliation": "University of California, Los Angeles",
       "url": "https://plasma.physics.ucla.edu",
       "image": "/images/2021HW/vincena.jpg"
+    },
+    "zelaya": {
+      "name": "Reynaldo Rojas Zelaya",
+      "affiliation": "UTEC",
+      "url": "https://github.com/userr2232",
+      "image": "/images/2022HW/zelaya.png"
     }
   }
 }
