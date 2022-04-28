@@ -2,7 +2,7 @@ title: About 2022 Hack Week
 hidetitle: True
 
 # Plasma Hack Week 2022
-**Dates:** July 11 - 15, 2022
+**Dates:** July 11 – 15, 2022
 
 <div class="plasmapy-note" 
      style="max-width: 300px;
@@ -33,11 +33,11 @@ hidetitle: True
 </div>
 
 Welcome to the second **Plasma Hack Week**!!  This year's Hack Week will be
-held remotely from July 11 - July 15, 2022.  The event is **free** and will
+held remotely from July 11 – July 15, 2022.  The event is **free** and will
 target three objectives: increasing awareness of open-source software for the
 Plasma Community; building a contributor base for open-source software
 within the Plasma Community; and **training our scientists so open-source
-software can thrive within the Plasma Community**.  These objectives will be
+software can thrive throughout the Plasma Community**.  These objectives will be
 achieved through a hybrid of structured and unstructured learning activities
 that we will do as a collaborative group.  So, come prepared to code and have
 fun!!!
