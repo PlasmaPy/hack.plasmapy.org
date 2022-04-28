@@ -54,5 +54,67 @@
       "url": "https://plasma.physics.ucla.edu",
       "image": "/images/2021HW/vincena.jpg"
     }
+  },
+  "2022HW": {
+    "everson": {
+      "name": "Erik T. Everson",
+      "affiliation": "University of California, Los Angeles",
+      "url": "https://github.com/rocco8773",
+      "image": "/images/2021HW/everson.png"
+    },
+    "deshazer": {
+      "name": "Will DeShazer",
+      "affiliation": "General Atomics",
+      "url": null,
+      "image": null
+    },
+    "johnson": {
+      "name": "Elliot Johnson",
+      "affiliation": "University of Delaware",
+      "url": "https://github.com/etjohnson",
+      "image": "/images/2022HW/johnson.png"
+    },
+    "kozlowski": {
+      "name": "Pawel M. Kozlowski",
+      "affiliation": "Los Alamos National Laboratory",
+      "url": "https://github.com/lemmatum",
+      "image": "/images/2022HW/kozlowski.jpg"
+    },
+    "marascu": {
+      "name": "Valentina Marascu",
+      "affiliation": "National Institute for Lasers, Plasma and Radiation Physics",
+      "url": "https://orcid.org/0000-0002-5170-1398",
+      "image": "/images/2022HW/marascu.jpg"
+    },
+    "murphy": {
+      "name": "Nick Murphy",
+      "affiliation": "Center for Astrophysics | Harvard & Smithsonian",
+      "url": "https://lweb.cfa.harvard.edu/~namurphy/",
+      "image": "/images/2021HW/murphy.jpg"
+    },
+    "qudsi": {
+      "name": "Ramiz A. Qudsi",
+      "affiliation": "Center for Space Physics, Boston University",
+      "url": "https://qudsiramiz.github.io/",
+      "image": "/images/2022HW/qudsi.jpg"
+    },
+    "schaffner": {
+      "name": "David A. Schaffner",
+      "affiliation": "Bryn Mawr College",
+      "url": "https://www.brynmawr.edu/people/david-schaffner",
+      "image": "/images/2021HW/dschaffner.jpg"
+    },
+    "vincena": {
+      "name": "Steve Vincena",
+      "affiliation": "University of California, Los Angeles",
+      "url": "https://plasma.physics.ucla.edu",
+      "image": "/images/2021HW/vincena.jpg"
+    },
+    "zelaya": {
+      "name": "Reynaldo Rojas Zelaya",
+      "affiliation": "UTEC",
+      "url": "https://github.com/userr2232",
+      "image": "/images/2022HW/zelaya.png"
+    }
   }
 }

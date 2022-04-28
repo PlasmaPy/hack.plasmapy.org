@@ -1,23 +1,36 @@
-_site
-*.py[cod]
-.DS_Store
+# Nikola Generated
 .doit.db
+.doit.db.bak
+.doit.db.dat
+.doit.db.dir
 .doit.db.db
-cache/
+_site
 output/
-id_rsa
-id_rsa.pub
-.idea
-__pycache__
 web/.doit.db.bak
 web/.doit.db.dat
 web/.doit.db.db
 web/.doit.db.dir
+
+# Byte-compiled / optimized / DLL files
+__pycache__
+*.py[cod]
+
+# Distribution / packaging
+*.egg
+
+# virtual environments
+.venv
+ENV
+venv
+
+# Auxiliary files associated with emacs
 *~
-.idea
 *#
 #*
-*.egg
-.venv
-venv
-ENV
+
+# Miscellaneous files
+.DS_Store
+.idea
+cache/
+id_rsa
+id_rsa.pub
