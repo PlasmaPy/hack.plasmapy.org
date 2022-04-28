@@ -55,10 +55,11 @@ hidetitle: True
     </div>
 </div>
 
-Hello world!  We are pleased to announce that the inaugural **Plasma
-Hack Week** is being held remotely from June 28 – July 2, 2021.  Please
-check out the [**schedule**](./2021/schedule) for events happening during
-the Hack Week.
+Hello world!  We are pleased to announce the return of the **Plasma
+Hack Week**, which will be held remotely from July 11 – July 15, 2022.  For
+additionall infomation plese check out that
+[2022 About page](./2021/schedule), and stay tuned as more details are
+released.
 
 ## What is a hack week and hacking?
 
@@ -91,6 +92,7 @@ well as unstructured project time. A hack week is a chance to:
 If you would like to participate or help plan Plasma Hack Week, please
 join the [Plasma Coders](https://discord.gg/HdsZkp9M35) group on Discord.
 
+<!--
 ## Registration
 
 For information about registering please check out our 
@@ -107,6 +109,7 @@ will have most of the Python packages needed for the week pre-installed,
 along with `git`. 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PlasmaPy/hack-week-2021/HEAD)
+-->
 
 ## Resources
 
@@ -119,12 +122,14 @@ research software engineering best practices.
 Plasma Hack Week has adopted the [Contributor Covenant Code of
 Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).
 
+<!--
 ## Python tutorials
 
 We held two [tutorials to introduce Python](./2021/python) to 
 participants who are new to Python.  These tutorials were held 
 the week before the Hack Week on Monday, June 21 and Tuesday, June 22 at
 15 UTC (5 pm CEST / 11 am EDT / 8 am PDT).
+-->
 
 ## License
 
