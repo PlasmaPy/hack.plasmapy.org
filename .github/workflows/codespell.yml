@@ -1,0 +1,15 @@
+name: Codespell
+
+on:
+  push:
+    branches:
+    - src
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+
+  initial-tests:
+    name: Codespell
+    runs-on: ubuntu-latest
+    run: nox -s codespell
