@@ -30,4 +30,4 @@ jobs:
       run: python -m pip install --progress-bar off --upgrade nox
 
     - name: Run tests
-      run: nox -s codespell
+      run: nox -s codespell --forcecolor
