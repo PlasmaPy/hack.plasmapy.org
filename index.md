@@ -25,13 +25,13 @@ hidetitle: True
     </div>
     <!-- Feature 2 -->
     <div class="feature-column">
-        <a class="feature-link" href="2021/about">
+        <a class="feature-link" href="2022/about">
         <div class="feature-card" 
               style="background-image: none;
                      background-color: var(--plasmapy-darkblue)">
             <div>
                 <h1 style="color: #d8d8d8; margin-bottom: 18px; font-weight: bold">
-                    2021 Hack Week
+                    2022 Hack Week
                 </h1>
                 <img src="/images/hack_logo(v7)_light.png" alt="" style="max-width: 90%">
             </div>
@@ -55,10 +55,11 @@ hidetitle: True
     </div>
 </div>
 
-Hello world!  We are pleased to announce that the inaugural **Plasma
-Hack Week** is being held remotely from June 28 – July 2, 2021.  Please
-check out the [**schedule**](./2021/schedule) for events happening during
-the Hack Week.
+Hello world!  We are pleased to announce the return of the **Plasma
+Hack Week**, which will be held remotely from July 11 – July 15, 2022.  For
+additional information please check out the
+[2022 About page](./2021/schedule), and stay tuned as more details are
+released.
 
 ## What is a hack week and hacking?
 
@@ -68,8 +69,8 @@ coding session among novices, experts, and like-minded learners to work
 on projects and learn from each other.  Hacking is a learn-by-doing 
 activity, one of the best ways to further our knowledge.
 
-A [hack week](https://doi.org/10.1073/pnas.1717196115) is a combination
-of a hackathon (a marathon of hacking) and a summer school.  While 
+**A [hack week](https://doi.org/10.1073/pnas.1717196115) is a combination
+of a hackathon (a marathon of hacking) and a summer school.**  While 
 hackathons have traditionally prioritized collaborative code development
 activities, a hack week includes a teaching component.  Hack weeks 
 typically have both structured learning activities (such as tutorials) as
@@ -91,6 +92,7 @@ well as unstructured project time. A hack week is a chance to:
 If you would like to participate or help plan Plasma Hack Week, please
 join the [Plasma Coders](https://discord.gg/HdsZkp9M35) group on Discord.
 
+<!--
 ## Registration
 
 For information about registering please check out our 
@@ -107,6 +109,7 @@ will have most of the Python packages needed for the week pre-installed,
 along with `git`. 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PlasmaPy/hack-week-2021/HEAD)
+-->
 
 ## Resources
 
@@ -119,12 +122,14 @@ research software engineering best practices.
 Plasma Hack Week has adopted the [Contributor Covenant Code of
 Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).
 
+<!--
 ## Python tutorials
 
 We held two [tutorials to introduce Python](./2021/python) to 
 participants who are new to Python.  These tutorials were held 
 the week before the Hack Week on Monday, June 21 and Tuesday, June 22 at
 15 UTC (5 pm CEST / 11 am EDT / 8 am PDT).
+-->
 
 ## License
 

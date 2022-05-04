@@ -7,62 +7,70 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://hack.plasmapy.org/</loc>
-  <lastmod>2021-07-02T14:37:00Z</lastmod>
+  <lastmod>2022-05-04T20:14:00Z</lastmod>
  </url>
  <url>
   <loc>https://hack.plasmapy.org/2021/about/</loc>
-  <lastmod>2021-07-02T14:37:00Z</lastmod>
+  <lastmod>2022-05-04T20:14:00Z</lastmod>
  </url>
  <url>
   <loc>https://hack.plasmapy.org/2021/committee/</loc>
-  <lastmod>2021-07-02T14:37:00Z</lastmod>
+  <lastmod>2022-05-04T20:14:00Z</lastmod>
  </url>
  <url>
   <loc>https://hack.plasmapy.org/2021/exit_survey/</loc>
-  <lastmod>2021-07-02T14:37:00Z</lastmod>
+  <lastmod>2022-05-04T20:14:00Z</lastmod>
  </url>
  <url>
   <loc>https://hack.plasmapy.org/2021/install/</loc>
-  <lastmod>2021-07-02T14:37:00Z</lastmod>
+  <lastmod>2022-05-04T20:14:00Z</lastmod>
  </url>
  <url>
   <loc>https://hack.plasmapy.org/2021/python/</loc>
-  <lastmod>2021-07-02T14:37:00Z</lastmod>
+  <lastmod>2022-05-04T20:14:00Z</lastmod>
  </url>
  <url>
   <loc>https://hack.plasmapy.org/2021/registration/</loc>
-  <lastmod>2021-07-02T14:37:00Z</lastmod>
+  <lastmod>2022-05-04T20:14:00Z</lastmod>
  </url>
  <url>
   <loc>https://hack.plasmapy.org/2021/schedule/</loc>
-  <lastmod>2021-07-02T14:37:00Z</lastmod>
+  <lastmod>2022-05-04T20:14:00Z</lastmod>
  </url>
  <url>
   <loc>https://hack.plasmapy.org/2021/social/</loc>
-  <lastmod>2021-07-02T14:37:00Z</lastmod>
+  <lastmod>2022-05-04T20:14:00Z</lastmod>
  </url>
  <url>
   <loc>https://hack.plasmapy.org/2021/tutorials/</loc>
-  <lastmod>2021-07-02T14:37:00Z</lastmod>
+  <lastmod>2022-05-04T20:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://hack.plasmapy.org/2022/about/</loc>
+  <lastmod>2022-05-04T20:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://hack.plasmapy.org/2022/committee/</loc>
+  <lastmod>2022-05-04T20:14:00Z</lastmod>
  </url>
  <url>
   <loc>https://hack.plasmapy.org/archive.html</loc>
-  <lastmod>2021-07-02T14:37:00Z</lastmod>
+  <lastmod>2022-05-04T20:14:00Z</lastmod>
  </url>
  <url>
   <loc>https://hack.plasmapy.org/categories/</loc>
-  <lastmod>2021-07-02T14:37:00Z</lastmod>
+  <lastmod>2022-05-04T20:14:00Z</lastmod>
  </url>
  <url>
   <loc>https://hack.plasmapy.org/contact/</loc>
-  <lastmod>2021-07-02T14:37:00Z</lastmod>
+  <lastmod>2022-05-04T20:14:00Z</lastmod>
  </url>
  <url>
   <loc>https://hack.plasmapy.org/news/</loc>
-  <lastmod>2021-07-02T14:37:00Z</lastmod>
+  <lastmod>2022-05-04T20:14:00Z</lastmod>
  </url>
  <url>
   <loc>https://hack.plasmapy.org/resources/</loc>
-  <lastmod>2021-07-02T14:37:00Z</lastmod>
+  <lastmod>2022-05-04T20:14:00Z</lastmod>
  </url>
 </urlset>
