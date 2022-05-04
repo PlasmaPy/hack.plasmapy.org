@@ -18,6 +18,10 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+    - name: Should I deploy ${{ env.DEPLOY }}
+      run: |
+        - echo ${env.DEPLOY}
+        - echo ${github.event_name}
     - name: Build and Deploy Nikola ${{ env.DEPLOY }}
       uses: getnikola/nikola-action@v4
       with:
