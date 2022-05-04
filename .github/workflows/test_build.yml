@@ -1,0 +1,24 @@
+name: Test Website Build
+
+on:
+  pull_request:
+    branches:
+    - src
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Test Build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Build site
+      uses: getnikola/nikola-action@v3
+      with:
+        dry_run: true
+    - name: Upload site artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: output
+        path: output/
