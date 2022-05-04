@@ -27,7 +27,7 @@ jobs:
         else
           echo "do NOT Deploy website"
         fi
-    - name: Build Website ${{ enV.DEPLOY }}
+    - name: Build Website ${{ env.DEPLOY }}
       uses: getnikola/nikola-action@v4
       with:
-        dry_run: true
+        dry_run: ${{ env.DRY_RUN }}
