@@ -13,16 +13,21 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      DEPLOY: ${{ github.event_name != 'pull_request' }}
+      DRY_RUN: ${{ github.event_name == 'pull_request' }}
+      DEPLOY: ""
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-    - name: Should I deploy ${{ env.DEPLOY }}
+    - name: Should I deploy?
       run: |
-        - echo ${{ env.DEPLOY }}
-        - echo ${{ github.event_name }}
-    - name: Build and Deploy Nikola ${{ env.DEPLOY }}
+        if [[ "$DRY_RUN" != "true" ]];
+          echo "DEPLOY= and Deploy" >> $GITHUB_ENV
+          echo "Deploy website"
+        else
+          echo "do NOT Deploy website"
+        fi
+    - name: Build Website ${{ enf.DEPLOY }}
       uses: getnikola/nikola-action@v4
       with:
         dry_run: true
