@@ -22,12 +22,12 @@ jobs:
     - name: Should I deploy?
       run: |
         if [[ "$DRY_RUN" != "true" ]];
-          echo "DEPLOY= and Deploy" >> $GITHUB_ENV
+          echo "DEPLOY='and Deploy'" >> $GITHUB_ENV
           echo "Deploy website"
         else
           echo "do NOT Deploy website"
         fi
-    - name: Build Website ${{ enf.DEPLOY }}
+    - name: Build Website ${{ enV.DEPLOY }}
       uses: getnikola/nikola-action@v4
       with:
         dry_run: true
