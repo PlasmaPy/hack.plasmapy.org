@@ -1,6 +1,7 @@
 name: Build and deploy site
 
 on:
+  pull_request:
   push:
     branches:
     - src
@@ -10,10 +11,14 @@ jobs:
   build:
     name: Build website
     runs-on: ubuntu-latest
+
+    env:
+      DEPLOY: ${{ github.event_name != 'pull_request' }}
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-    - name: Build and Deploy Nikola
-      uses: getnikola/nikola-action@v3
+    - name: Build and Deploy Nikola ${{ env.DEPLOY }}
+      uses: getnikola/nikola-action@v4
       with:
-        dry_run: false
+        dry_run: true
