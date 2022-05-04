@@ -21,7 +21,7 @@ jobs:
       uses: actions/checkout@v2
     - name: Should I deploy?
       run: |
-        if [[ "$DRY_RUN" != "true" ]];
+        if [[ "$DRY_RUN" != "true" ]]; then
           echo "DEPLOY='and Deploy'" >> $GITHUB_ENV
           echo "Deploy website"
         else
