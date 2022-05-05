@@ -92,12 +92,12 @@ well as unstructured project time. A hack week is a chance to:
 If you would like to participate or help plan Plasma Hack Week, please
 join the [Plasma Coders](https://discord.gg/HdsZkp9M35) group on Discord.
 
-<!--
 ## Registration
 
 For information about registering please check out our 
-[2021 Hack Week registration page](./2021/registration).
+[2022 Hack Week registration page](./2022/registration).
 
+<!--
 ## Installing software for the Hack Week
 
 Please follow these [installation instructions](/2021/install) if you
