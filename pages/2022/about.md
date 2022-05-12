@@ -16,8 +16,8 @@ hidetitle: True
     </p>
     <p style="margin-bottom: 0">
         <a href="../about">About</a><br>
-        <!--
         <a href="../registration">Registration</a><br>
+        <!--
         <a href="../schedule">Schedule</a><br>
         <a href="../python">Python Tutorials</a><br>
         <a href="../tutorials">Tutorials</a><br>
