@@ -40,7 +40,7 @@ hidetitle: True
     </div>
     <!-- Feature 3 -->
     <div class="feature-column">
-        <a class="feature-link" href="2021/exit_survey">
+        <a class="feature-link" href="2022/exit_survey">
         <div class="feature-card" 
               style="background: linear-gradient(to right, 
                                  var(--plasmapy-darkblue) 0%,
@@ -58,7 +58,7 @@ hidetitle: True
 Hello world!  We are pleased to announce the return of the **Plasma
 Hack Week**, which will be held remotely from July 11 – July 15, 2022.  For
 additional information please check out the
-[2022 About page](./2021/about), and stay tuned as more details are
+[2022 About page](./2022/about), and stay tuned as more details are
 released.
 
 ## What is a hack week and hacking?
@@ -100,7 +100,7 @@ For information about registering please check out our
 <!--
 ## Installing software for the Hack Week
 
-Please follow these [installation instructions](/2021/install) if you
+Please follow these [installation instructions](/2022/install) if you
 would like to install any of the software needed for the Hack Week.
 
 Alternatively, clicking on the following binder link will initialize a
@@ -108,7 +108,7 @@ Python environment that can be run from your browser.  This environment
 will have most of the Python packages needed for the week pre-installed,
 along with `git`. 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PlasmaPy/hack-week-2021/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PlasmaPy/hack-week/HEAD)
 -->
 
 ## Resources
@@ -125,7 +125,7 @@ Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).
 <!--
 ## Python tutorials
 
-We held two [tutorials to introduce Python](./2021/python) to 
+We held two [tutorials to introduce Python](./2022/python) to 
 participants who are new to Python.  These tutorials were held 
 the week before the Hack Week on Monday, June 21 and Tuesday, June 22 at
 15 UTC (5 pm CEST / 11 am EDT / 8 am PDT).
