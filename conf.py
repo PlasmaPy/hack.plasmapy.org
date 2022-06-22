@@ -158,7 +158,7 @@ NAVIGATION_LINKS = {
             (
                 ("/2022/about", "About"),
                 ("/2022/registration", "Registration"),
-                # ("/2022/schedule", "Schedule"),
+                ("/2022/schedule", "Schedule"),
                 # ("/2022/python", "Python Tutorials"),
                 # ("/2022/tutorials", "Tutorials"),
                 # ("/2022/install", "Software Installation"),
