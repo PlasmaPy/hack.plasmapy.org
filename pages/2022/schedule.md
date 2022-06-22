@@ -1,24 +1,24 @@
 title: 2022 Hack Week Schedule
 hidetitle: True
 
-# Plasma Hack Week 2021: Schedule
+# Plasma Hack Week 2022: Schedule
 
 **Dates:** July 11th to July 15th <br>
 **Times:** 11:00 am to 4:00 pm EDT
 
 Each day of this year's **Plasma Hack Week** is focused around hacking,
-so  come prepared to code and have fun!  While each day is centered
-around hack, there will still be planned social time and lightning talks.
+so come prepared to code and have fun!  While each day is centered
+around hacking, there will still be planned social time and lightning talks.
 All pre-planned events will not exceed 5 hours in any given day, and we
 highly encourage any breakout discussions and hack sessions that may be
-inspired from the  day's activities.
+inspired from the day's activities.
 
 This year's Hack Week will be held from July 11 to July 15.  The primary
 goal of this year's event is to teach members of the Plasma community
 the skills needed to contribute to open-source software and develop code
 for the Plasma community as a whole.  The week will start off with
 foundational topics and progress to more advanced topics as the week
-proceeds.  The detailed schedule can be view [below](#the-schedule) and
+proceeds.  The detailed schedule can be viewed [below](#the-schedule) and
 the overview is as follows:
 
    Day 1 (foundational)
@@ -26,7 +26,7 @@ the overview is as follows:
      for developing open-source Python software.
 
    Day 2 (foundational)
-   : The second day is all about version control `git` and
+   : The second day is all about version control with [`git`](https://git-scm.com/) and
      [GitHub](https://github.com/about).  These are the two primary
      tools used to collaboratively develop open-source software.
 
@@ -43,11 +43,11 @@ the overview is as follows:
    : The last two days will focus on developing functionality participants
      are interested in, which can be suggested by any participant and/or
      select from pre-outlined 
-     [project Issues](https://github.com/PlasmaPy/hack-week/issues?q=is%3Aissue+is%3Aopen+label%3A2022).
+     [project issues](https://github.com/PlasmaPy/hack-week/issues?q=is%3Aissue+is%3Aopen+label%3A2022).
 
 Since this year's event is focused on hacking and learning by doing, it
-is in its nature freeform.  So, feel free to bring up any topic you are
-interested; ask any question you might have; and/or launch any breakout
+is in its nature free-form.  So, feel free to bring up any topic you are
+interested in; ask any question you might have; and/or launch any breakout
 discuss to explore your ideas.
 
 ## <a name="the-schedule"></a> The schedule
