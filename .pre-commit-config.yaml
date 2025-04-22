@@ -19,7 +19,7 @@ repos:
   - id: check-yaml
 
 - repo: https://github.com/python-jsonschema/check-jsonschema
-  rev: 0.30.0
+  rev: 0.32.1
   hooks:
   - id: check-github-workflows
 
@@ -45,7 +45,7 @@ repos:
     exclude: .github/labeler.yml|.pre-commit-search-and-replace.yaml
 
 - repo: https://github.com/codespell-project/codespell
-  rev: v2.3.0
+  rev: v2.4.1
   hooks:
   - id: codespell
     name: codespell (add false positives to pyproject.toml)
@@ -55,6 +55,6 @@ repos:
     exclude: shortcodes|plugins|CODE_OF_CONDUCT.rst
 
 - repo: https://github.com/executablebooks/mdformat
-  rev: 0.7.21
+  rev: 0.7.22
   hooks:
   - id: mdformat
