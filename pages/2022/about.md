@@ -33,24 +33,22 @@ hidetitle: True
     </p>
 </div>
 
-Welcome to the second **Plasma Hack Week**!! This year's Hack Week will be
-held remotely from July 11 – July 15, 2022. The event is **free** and will
-target three objectives: increasing awareness of open-source software for the
+Thank you to everyone who attended the second **Plasma Hack Week**!! This event was
+held remotely from July 11 – July 15, 2022.
+
+The event was **free** and targeted three objectives: increasing awareness of open-source software for the
 Plasma Community; building a contributor base for open-source software
 within the Plasma Community; and **training our scientists so open-source
-software can thrive throughout the Plasma Community**. These objectives will be
+software can thrive throughout the Plasma Community**. These objectives were
 achieved through a hybrid of structured and unstructured learning activities
-that we will do as a collaborative group. So, come prepared to code and have
-fun!!!
+that we will do as a collaborative group.
 
-Based on the feedback from last year's event, we are switching up the
+Based on the feedback from the 2021 event, we switched up the
 style of the Hack Week. Instead of being predominately presentation focused,
-this year we will be focusing on coding together and learning by doing. We
-will spend the week developing our own `hack` Python package, staring with
+this year focused more on coding together and learning by doing. We
+spent the week developing our own `hack` Python package, starting with
 the basics (`git` and [GitHub](https://github.com/)) and moving through more
-advanced topic throughout the week. By the end of the week we should have our
-own plasma formulary much like the
-[`plasmapy.formulary`](https://docs.plasmapy.org/en/latest/formulary/index.html).
+advanced topic throughout the week.
 
 For information on registering please visit our
 [registration page](../registration).
