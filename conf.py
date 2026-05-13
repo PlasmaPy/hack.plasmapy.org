@@ -89,7 +89,6 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         (PLASMAPY_URL, "Back to PlasmaPy"),
-        (CHAT, "Discord"),
         (
             (
                 ("/2022/about", "About"),
