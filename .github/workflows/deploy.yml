@@ -1,33 +1,21 @@
 name: Build and deploy site
 
 on:
-  pull_request:
   push:
     branches:
-    - src
+    - main
   workflow_dispatch:
 
 jobs:
-  build:
-    name: Build website
+  nikola_build:
     runs-on: ubuntu-latest
-
-    env:
-      DRY_RUN: ${{ github.event_name == 'pull_request' }}
-      DEPLOY: ''
-
+    name: Deploy Nikola to GitHub Pages
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-    - name: Should I deploy?
-      run: |
-        if [[ "$DRY_RUN" != "true" ]]; then
-          echo "DEPLOY='and Deploy'" >> $GITHUB_ENV
-          echo "Deploy website"
-        else
-          echo "do NOT Deploy website"
-        fi
-    - name: Build Website ${{ env.DEPLOY }}
-      uses: getnikola/nikola-action@v4
+
+    - name: Check out
+      uses: actions/checkout@v6
+
+    - name: Build and Deploy Nikola
+      uses: getnikola/nikola-action@v8
       with:
-        dry_run: ${{ env.DRY_RUN }}
+        dry_run: false
