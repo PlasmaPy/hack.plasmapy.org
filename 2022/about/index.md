@@ -2,9 +2,10 @@ title: About 2022 Hack Week
 hidetitle: True
 
 # Plasma Hack Week 2022
+
 **Dates:** July 11 – 15, 2022
 
-<div class="plasmapy-note" 
+<div class="plasmapy-note"
      style="max-width: 300px;
             margin-top: 24px;
             border-style: solid;
@@ -32,36 +33,25 @@ hidetitle: True
     </p>
 </div>
 
-Welcome to the second **Plasma Hack Week**!!  This year's Hack Week will be
-held remotely from July 11 – July 15, 2022.  The event is **free** and will
-target three objectives: increasing awareness of open-source software for the
+Thank you to everyone who attended the second **Plasma Hack Week**!! This event was
+held remotely from July 11 – July 15, 2022.
+
+The event was **free** and targeted three objectives: increasing awareness of open-source software for the
 Plasma Community; building a contributor base for open-source software
 within the Plasma Community; and **training our scientists so open-source
-software can thrive throughout the Plasma Community**.  These objectives will be
+software can thrive throughout the Plasma Community**. These objectives were
 achieved through a hybrid of structured and unstructured learning activities
-that we will do as a collaborative group.  So, come prepared to code and have
-fun!!!
+that we will do as a collaborative group.
 
-Based on the feedback from last year's event, we are switching up the
-style of the Hack Week.  Instead of being predominately presentation focused,
-this year we will be focusing on coding together and learning by doing.  We
-will spend the week developing our own `hack` Python package, staring with
+Based on the feedback from the 2021 event, we switched up the
+style of the Hack Week. Instead of being predominately presentation focused,
+this year focused more on coding together and learning by doing. We
+spent the week developing our own `hack` Python package, starting with
 the basics (`git` and [GitHub](https://github.com/)) and moving through more
-advanced topic throughout the week.  By the end of the week we should have our
-own plasma formulary much like the
-[`plasmapy.formulary`](https://docs.plasmapy.org/en/latest/formulary/index.html).
+advanced topic throughout the week.
 
-For information on registering please visit our 
+For information on registering please visit our
 [registration page](../registration).
-
-For any additional questions please reach out to us on our 
-[Discord channel](https://discord.gg/HdsZkp9M35).
-
-<!--
-In the week leading up to the **Plasma Hack Week**, a few more fundamentally
-focused tutorials will be presented on topics like the basics of Python, using 
-version control, contributing to open-source projects, etc.
 
 For information on the schedule and pre-week tutorials please visit our
 [scheduling page](../schedule).
--->

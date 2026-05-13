@@ -21,10 +21,10 @@
 <meta property="og:description" content="Prequel Python Tutorials
 In the week before the Hack Week, we hosted two tutorials to
 introduce Python to students and scientists
-who are new to Python.  These tutorials were held on Monday, June 21
-a">
+who are new to Python. These tutorials were held on Monday, June 21
+an">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2022-06-22T21:00:19+02:00">
+<meta property="article:published_time" content="2026-05-14T00:06:30+02:00">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -46,9 +46,6 @@ bg-dark
             <ul class="navbar-nav mr-auto">
 <li class="nav-item">
 <a href="https://www.plasmapy.org" class="nav-link">Back to PlasmaPy</a>
-                </li>
-<li class="nav-item">
-<a href="https://discord.gg/HdsZkp9M35" class="nav-link">Discord</a>
             </li>
 <li class="nav-item dropdown">
 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">2022 Event</a>
@@ -97,15 +94,11 @@ bg-dark
     <h2>Prequel Python Tutorials</h2>
 <p>In the week before the Hack Week, we hosted two tutorials to
 introduce <a href="https://www.python.org/">Python</a> to students and scientists
-who are new to Python.  These tutorials were held on Monday, June 21
-and Tuesday, June 22 at 15 UTC (5 pm CEST / 11 am EDT / 8 am PDT).  Each
-tutorial lasted about an hour.  This tutorial was adapted from
+who are new to Python. These tutorials were held on Monday, June 21
+and Tuesday, June 22 at 15 UTC (5 pm CEST / 11 am EDT / 8 am PDT). Each
+tutorial lasted about an hour. This tutorial was adapted from
 Software Carpentry's <a href="https://swcarpentry.github.io/python-novice-inflammation/">Programming with Python
 tutorial</a>.</p>
-<p>To replicate the Python environment for this tutorial, please go to the
-following Binder link.  You can access the Jupyter notebook used for the
-tutorial by opening <code>PythonIntro2021.ipynb</code>.</p>
-<p><a href="https://mybinder.org/v2/gh/PlasmaPy/hack-week-python-intro/HEAD"><img alt="Binder" src="https://mybinder.org/badge_logo.svg"></a></p>
 <h3>Tentative schedule</h3>
 <p>Day 1</p>
 <ul>
@@ -113,7 +106,8 @@ tutorial by opening <code>PythonIntro2021.ipynb</code>.</p>
 <li>Reading in data</li>
 <li>
 <a href="https://numpy.org/">NumPy</a> arrays</li>
-<li>Plotting with <a href="https://matplotlib.org/">matplotlib</a>  </li>
+<li>Plotting with <a href="https://matplotlib.org/">matplotlib</a>
+</li>
 </ul>
 <p>Day 2</p>
 <ul>
@@ -125,48 +119,67 @@ tutorial by opening <code>PythonIntro2021.ipynb</code>.</p>
 <h3>Setup</h3>
 <p>To follow along with these tutorials, you can either install Python on
 your own computer, or access a Binder link that will create an environment
-automatically.  </p>
+automatically.</p>
 <h4>Getting set up on your own computer</h4>
 <p>If you would like to follow along with the tutorial on your own computer,
 please follow these instructions.</p>
 <ol>
-<li>Please follow these instructions for
-   <a href="https://docs.anaconda.com/anaconda/install/">installing Anaconda</a>.
-   When this is done, you should have Anaconda Navigator installed.</li>
-<li>Create a folder called <code>python-intro</code> on your computer.</li>
-<li>Download <a href="https://swcarpentry.github.io/python-novice-inflammation/data/python-novice-inflammation-data.zip">python-novice-inflammation-data.zip</a>,
-   and move the file to <code>python-intro</code>.</li>
-<li>Unzip <code>python-novice-inflammation-data.zip</code> into the <code>python-intro</code>
-   folder.</li>
 <li>
-<a href="https://docs.anaconda.com/anaconda/user-guide/getting-started/#open-navigator">Open Anaconda Navigator</a>.</li>
-<li>Under the "Home" tab on Anaconda Navigator, search for and install
-   "Jupyter Notebook".</li>
-<li>Under the "Environments" tab on Anaconda Navigator, click on the
-   arrow for the <code>base</code> environment.  Select "Open terminal".</li>
-<li>Type <code>pip install numpy matplotlib</code> to install the necessary packages
-   and press enter.   </li>
-<li>Click on the arrow for the <code>base</code> environment again. Select the
-   option to "Open with Jupyter Notebook".</li>
-<li>Navigate to the <code>python-intro</code> directory, and enter the <code>data</code>
-   sub-directory.</li>
-<li>Under the "New" button (probably near the upper right corner),
-    select "Python 3" to open a notebook.   </li>
+<p>Please follow these instructions for
+   <a href="https://docs.anaconda.com/anaconda/install/">installing Anaconda</a>.
+   When this is done, you should have Anaconda Navigator installed.</p>
+</li>
+<li>
+<p>Create a folder called <code>python-intro</code> on your computer.</p>
+</li>
+<li>
+<p>Download <a href="https://swcarpentry.github.io/python-novice-inflammation/data/python-novice-inflammation-data.zip">python-novice-inflammation-data.zip</a>,
+   and move the file to <code>python-intro</code>.</p>
+</li>
+<li>
+<p>Unzip <code>python-novice-inflammation-data.zip</code> into the <code>python-intro</code>
+   folder.</p>
+</li>
+<li>
+<p><a href="https://docs.anaconda.com/anaconda/user-guide/getting-started/#open-navigator">Open Anaconda Navigator</a>.</p>
+</li>
+<li>
+<p>Under the "Home" tab on Anaconda Navigator, search for and install
+   "Jupyter Notebook".</p>
+</li>
+<li>
+<p>Under the "Environments" tab on Anaconda Navigator, click on the
+   arrow for the <code>base</code> environment. Select "Open terminal".</p>
+</li>
+<li>
+<p>Type <code>pip install numpy matplotlib</code> to install the necessary packages
+   and press enter.</p>
+</li>
+<li>
+<p>Click on the arrow for the <code>base</code> environment again. Select the
+   option to "Open with Jupyter Notebook".</p>
+</li>
+<li>
+<p>Navigate to the <code>python-intro</code> directory, and enter the <code>data</code>
+   sub-directory.</p>
+</li>
+<li>
+<p>Under the "New" button (probably near the upper right corner),
+   select "Python 3" to open a notebook.</p>
+</li>
 <li>
 <p>Test the installation by entering</p>
-<div class="code"><pre class="code literal-block"><span class="kn">import</span> <span class="nn">numpy</span>
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span>
-<span class="n">data</span> <span class="o">=</span> <span class="n">numpy</span><span class="o">.</span><span class="kp">loadtxt</span><span class="p">(</span><span class="n">fname</span><span class="o">=</span><span class="s1">'inflammation-01.csv'</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s1">','</span><span class="p">)</span>
-<span class="n">matplotlib</span><span class="o">.</span><span class="n">pyplot</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
-<span class="n">matplotlib</span><span class="o">.</span><span class="n">pyplot</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-</pre></div>
-
-<p>Press shift-enter to run the cell.  If you get a fancy plot, you're
-all set!  If you run into any errors, please ask on the 
-<a href="https://discord.gg/HdsZkp9M35">Discord channel for the Hack Week</a>
-in the <code>#tutorial-python</code> channel.</p>
 </li>
 </ol>
+<p><code>import numpy
+   import matplotlib.pyplot
+   data = numpy.loadtxt(fname='inflammation-01.csv', delimiter=',')
+   matplotlib.pyplot.plot(data)
+   matplotlib.pyplot.show()</code></p>
+<p>Press shift-enter to run the cell. If you get a fancy plot, you're
+   all set! If you run into any errors, please ask on the
+   <a href="https://discord.gg/HdsZkp9M35">Discord channel for the Hack Week</a>
+   in the <code>#tutorial-python</code> channel.</p>
 <!---
 ### Binder (no installation required)
 
@@ -175,14 +188,14 @@ online Python environment that you can run from your web browser.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PlasmaPy/hack-week-python-intro/HEAD)
 
-After the environment initializes, go to the "New" button and select 
+After the environment initializes, go to the "New" button and select
 "Python 3" to create a new notebook to use for the tutorial.
 --->
-</div>
+    </div>
     
 
 </article><!--End of body content--><footer id="footer">
-            Contents © 2022 PlasmaPy Developers- <a href="https://github.com/PlasmaPy/plasma-hack-week">GitHub</a> - 
+            Contents © 2026 PlasmaPy Developers- <a href="https://github.com/PlasmaPy/plasma-hack-week">GitHub</a> - 
 <a href="../../license">
 License
 </a> - <a href="https://www.facebook.com/PlasmaPy-101663168274541">Facebook</a> - <a href="https://twitter.com/plasmapy">Twitter</a> - <a href="https://www.youtube.com/channel/UCSH6qzslhqIZKTAJmHPxIxw">YouTube</a> - <a href="https://discord.gg/HdsZkp9M35">Chat</a> - <a href="mailto:%20hack@plasmapy.org">Email</a> - Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a>

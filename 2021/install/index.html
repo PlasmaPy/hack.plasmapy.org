@@ -20,13 +20,13 @@
 <meta property="og:url" content="https://hack.plasmapy.org/2021/install/">
 <meta property="og:description" content="Software Installation for Plasma Hack Week
 This page contains instructions for installing software to be used
-during Plasma Hack Week.  In addition, here are installation links for
+during Plasma Hack Week. In addition, here are installation links for
 
 BOUT++
 Gkeyll
-OMFI">
+OMFIT">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2022-06-22T21:00:19+02:00">
+<meta property="article:published_time" content="2026-05-14T00:06:30+02:00">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -48,9 +48,6 @@ bg-dark
             <ul class="navbar-nav mr-auto">
 <li class="nav-item">
 <a href="https://www.plasmapy.org" class="nav-link">Back to PlasmaPy</a>
-                </li>
-<li class="nav-item">
-<a href="https://discord.gg/HdsZkp9M35" class="nav-link">Discord</a>
             </li>
 <li class="nav-item dropdown">
 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">2022 Event</a>
@@ -98,7 +95,7 @@ bg-dark
 <article class="post-text storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header></header><div class="e-content entry-content" itemprop="articleBody text">
     <h2>Software Installation for Plasma Hack Week</h2>
 <p>This page contains instructions for installing software to be used
-during Plasma Hack Week.  In addition, here are installation links for</p>
+during Plasma Hack Week. In addition, here are installation links for</p>
 <ul>
 <li><a href="https://bout-dev.readthedocs.io/en/latest/user_docs/installing.html">BOUT++</a></li>
 <li><a href="https://gkeyll.readthedocs.io/en/latest/install.html">Gkeyll</a></li>
@@ -116,106 +113,122 @@ in order to follow along with many of the tutorials.</p>
 environment with several of the packages to be discussed during the Hack
 Week.</p>
 <ol>
-<li>Please follow these instructions for
-   <a href="https://docs.anaconda.com/anaconda/install/">installing Anaconda</a>.<br>
-   When this is done, you should have Anaconda Navigator installed.</li>
-<li>Create a folder on your computer for the Hack Week, which we'll call
-   <code>hackweek</code>.</li>
-<li>Download this
+<li>
+<p>Please follow these instructions for
+   <a href="https://docs.anaconda.com/anaconda/install/">installing Anaconda</a>.
+   When this is done, you should have Anaconda Navigator installed.</p>
+</li>
+<li>
+<p>Create a folder on your computer for the Hack Week, which we'll call
+   <code>hackweek</code>.</p>
+</li>
+<li>
+<p>Download this
    <a href="https://raw.githubusercontent.com/PlasmaPy/hack-week-2021/main/environment.yml"><code>environment.yml</code></a>
-   file to the <code>hackweek</code> folder.  You might need to use the "save page
-   as" option from your web browser menu.</li>
+   file to the <code>hackweek</code> folder. You might need to use the "save page
+   as" option from your web browser menu.</p>
+</li>
 <li>
-<a href="https://docs.anaconda.com/anaconda/user-guide/getting-started/#open-navigator">Open Anaconda
-   Navigator</a>.</li>
-<li>Under the "Home" tab on Anaconda Navigator, search for and install
-   "Jupyter Notebook".</li>
+<p><a href="https://docs.anaconda.com/anaconda/user-guide/getting-started/#open-navigator">Open Anaconda
+   Navigator</a>.</p>
+</li>
 <li>
-<a href="https://docs.anaconda.com/anaconda/navigator/tutorials/manage-environments/#importing-an-environment">Create an Anaconda environment</a> 
-   for the Hack Week.<ul>
-<li>Select the "Environment" tab.</li>
+<p>Under the "Home" tab on Anaconda Navigator, search for and install
+   "Jupyter Notebook".</p>
+</li>
+<li>
+<p><a href="https://docs.anaconda.com/anaconda/navigator/tutorials/manage-environments/#importing-an-environment">Create an Anaconda environment</a>
+   for the Hack Week.</p>
+</li>
+<li>
+<p>Select the "Environment" tab.</p>
+</li>
 <li>Below the list of environments, click "Import".</li>
 <li>Click the file folder icon.</li>
 <li>Navigate to and select the <code>environment.yml</code> (possibly in your
-  <code>Downloads</code> folder).</li>
-<li>Click "Import".  </li>
-</ul>
+     <code>Downloads</code> folder).</li>
+<li>
+<p>Click "Import".</p>
 </li>
-<li>Under the "Environments" tab on Anaconda Navigator, find the
-   <code>hackweek</code> environment.  Click on the arrow for that environment, and
-   select the option to "Open with Jupyter Notebook".</li>
-<li>After Jupyter Notebook opens in your web browser, click on the button
-   for "New", and click on "Python 3" to open a Python notebook.</li>
+<li>
+<p>Under the "Environments" tab on Anaconda Navigator, find the
+   <code>hackweek</code> environment. Click on the arrow for that environment, and
+   select the option to "Open with Jupyter Notebook".</p>
+</li>
+<li>
+<p>After Jupyter Notebook opens in your web browser, click on the button
+   for "New", and click on "Python 3" to open a Python notebook.</p>
+</li>
 <li>
 <p>Test the installation by typing</p>
-<div class="code"><pre class="code literal-block"><span class="kn">import</span> <span class="nn">plasmapy</span>
-</pre></div>
-
-<p>and then press shift-Enter to execute the cell.  This should run
-without giving any errors.</p>
 </li>
 </ol>
+<p><code>import plasmapy</code></p>
+<p>and then press shift-Enter to execute the cell. This should run
+   without giving any errors.</p>
 <h4>Installation with <code>conda</code> from the command line</h4>
-<p>If you have a working installation of <code>conda</code> then you can install the 
-<code>hackweek</code> environment with the following steps.  </p>
+<p>If you have a working installation of <code>conda</code> then you can install the
+<code>hackweek</code> environment with the following steps.</p>
 <ol>
-<li>Open a terminal.</li>
-<li>Create a folder on your computer for the Hack Week, which we'll call
-   <code>hackweek</code>.  Enter that folder.</li>
 <li>
-<p>Download the <code>environment.yml</code> file by running </p>
-<p></p>
-<pre class="code literal-block">
-wget https://raw.githubusercontent.com/PlasmaPy/hack-week-2021/main/environment.yml
-</pre>
+<p>Open a terminal.</p>
 </li>
 <li>
-<p>Run the following command to create the environment.</p>
-<p></p>
-<pre class="code literal-block">
-conda env create -f environment.yml
-</pre>
+<p>Create a folder on your computer for the Hack Week, which we'll call
+   <code>hackweek</code>. Enter that folder.</p>
 </li>
 <li>
-<p>Activate this environment by running</p>
-<p></p>
-<pre class="code literal-block">
-conda activate hackweek
-</pre>
-</li>
-<li>
-<p>Test the environment by running</p>
-<p></p>
-<pre class="code literal-block">
-jupyter notebook
-</pre>
-<p>In the Jupyter notebook, run</p>
-<div class="code"><pre class="code literal-block"><span class="kn">import</span> <span class="nn">plasmapy</span>
-</pre></div>
-
+<p>Download the <code>environment.yml</code> file by running</p>
 </li>
 </ol>
+<pre class="code literal-block">
+    wget https://raw.githubusercontent.com/PlasmaPy/hack-week-2021/main/environment.yml
+    </pre>
+
+<ol>
+<li>Run the following command to create the environment.</li>
+</ol>
+<pre class="code literal-block">
+    conda env create -f environment.yml
+    </pre>
+
+<ol>
+<li>Activate this environment by running</li>
+</ol>
+<pre class="code literal-block">
+    conda activate hackweek
+    </pre>
+
+<ol>
+<li>Test the environment by running</li>
+</ol>
+<pre class="code literal-block">
+    jupyter notebook
+    </pre>
+
+<p>In the Jupyter notebook, run</p>
+<p><code>import plasmapy</code></p>
 <h4>Binder link</h4>
 <p>If you run into any problems with installation, you can also create a
 Binder environment to access a Python environment from your web browser.</p>
 <p><a href="https://mybinder.org/v2/gh/PlasmaPy/hack-week-environment-2021/HEAD"><img alt="Binder" src="https://mybinder.org/badge_logo.svg"></a></p>
 <h3>Integrated development environments</h3>
 <p>An integrated development environment (IDE) is software used for code
-development.  IDEs typically include a source code editor as well as
-built-in tools for refactoring, version control, running tests, and 
-debugging.  </p>
+development. IDEs typically include a source code editor as well as
+built-in tools for refactoring, version control, running tests, and
+debugging.</p>
 <ul>
 <li><a href="https://www.jetbrains.com/pycharm/download">PyCharm</a></li>
-<li>Community version is free and open source </li>
+<li>Community version is free and open source</li>
 <li>To be used during git &amp; GitHub and clean coding tutorials</li>
 <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
-<li>Community version is free and open source </li>
+<li>Community version is free and open source</li>
 <li><a href="https://atom.io/">Atom</a></li>
 <li>Full version is open source</li>
 </ul>
 <h3>Unix shell</h3>
 <p>Python and <code>git</code> are often used from the Unix shell, which is one of the
-most commonly used command line interfaces.  Here are instructions on 
+most commonly used command line interfaces. Here are instructions on
 <a href="https://carpentries.github.io/workshop-template/#shell">installing and/or accessing the bash
 shell</a>, which is
 one of the most commonly used Unix shells.</p>
@@ -223,7 +236,7 @@ one of the most commonly used Unix shells.</p>
     
 
 </article><!--End of body content--><footer id="footer">
-            Contents © 2022 PlasmaPy Developers- <a href="https://github.com/PlasmaPy/plasma-hack-week">GitHub</a> - 
+            Contents © 2026 PlasmaPy Developers- <a href="https://github.com/PlasmaPy/plasma-hack-week">GitHub</a> - 
 <a href="../../license">
 License
 </a> - <a href="https://www.facebook.com/PlasmaPy-101663168274541">Facebook</a> - <a href="https://twitter.com/plasmapy">Twitter</a> - <a href="https://www.youtube.com/channel/UCSH6qzslhqIZKTAJmHPxIxw">YouTube</a> - <a href="https://discord.gg/HdsZkp9M35">Chat</a> - <a href="mailto:%20hack@plasmapy.org">Email</a> - Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a>

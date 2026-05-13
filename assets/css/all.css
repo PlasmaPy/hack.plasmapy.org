@@ -1,8 +1,8 @@
 /* Minimal style sheet for the HTML output of Docutils.                    */
 /*                                                                         */
 /* :Author: Günter Milde, based on html4css1.css by David Goodger          */
-/* :Id: $Id: minimal.css 8642 2021-03-26 13:51:14Z milde $               */
-/* :Copyright: © 2015 Günter Milde.                                        */
+/* :Id: $Id: minimal.css 9079 2022-06-19 14:00:56Z milde $                                                               */
+/* :Copyright: © 2015, 2021 Günter Milde.                                  */
 /* :License: Released under the terms of the `2-Clause BSD license`_,      */
 /*    in short:                                                            */
 /*                                                                         */
@@ -14,11 +14,10 @@
 /*                                                                         */
 /* .. _2-Clause BSD license: http://www.spdx.org/licenses/BSD-2-Clause     */
 
-/* This CSS2.1_ stylesheet defines rules for Docutils elements without    */
-/* HTML equivalent. It is required to make the document semantic visible. */
-/*                                                                        */
-/* .. _CSS2.1: http://www.w3.org/TR/CSS2                                  */
-/* .. _validates: http://jigsaw.w3.org/css-validator/validator$link       */
+/* This CSS3 stylesheet defines rules for Docutils elements without        */
+/* HTML equivalent. It is required to make the document semantics visible. */
+/*                                                                         */
+/* .. _validates: http://jigsaw.w3.org/css-validator/validator$link        */
 
 /* titles */
 p.topic-title,
@@ -43,8 +42,8 @@ p.sidebar-subtitle {
 h1 + p.subtitle {
   font-size: 1.6em;
 }
-h2 + p.section-subtitle, a.toc-backref {
-  color: black;
+a.toc-backref {
+  color: inherit;
   text-decoration: none;
 }
 
@@ -73,12 +72,15 @@ span.problematic {
   margin-top: 0;
   margin-bottom: 0;
 }
+/* Nested Paragraphs
+p:first-child { margin-top: 0; }
+p:last-child { margin-bottom: 0; }
+details > p:last-child { margin-bottom: 1em; }
+ */
 
 /* Table of Contents */
-.topic.contents { margin: 0.5em 0; }
-.topic.contents ul.auto-toc {
+.contents ul.auto-toc { /* section numbers present */
   list-style-type: none;
-  padding-left: 1.5em;
 }
 
 /* Enumerated Lists */
@@ -97,6 +99,13 @@ dt .classifier:before {
 }
 /* Field Lists and similar */
 /* bold field name, content starts on the same line */
+dl.field-list,
+dl.option-list,
+dl.docinfo,
+dl.footnote,
+dl.citation {
+  display: flow-root;
+}
 dl.field-list > dt,
 dl.option-list > dt,
 dl.docinfo > dt,
@@ -107,13 +116,19 @@ dl.citation > dt {
   float: left;
   margin: 0;
   padding: 0;
-  padding-right: 0.5em;
+  padding-right: 0.2em;
 }
 /* Offset for field content (corresponds to the --field-name-limit option) */
 dl.field-list > dd,
 dl.option-list > dd,
 dl.docinfo > dd {
   margin-left:  9em; /* ca. 14 chars in the test examples, fit all Docinfo fields */
+}
+/* start nested lists on new line */
+dd > dl:first-child,
+dd > ul:first-child,
+dd > ol:first-child {
+  clear: left;
 }
 /* start field-body on a new line after long field names */
 dl.field-list > dd > *:first-child,
@@ -122,11 +137,6 @@ dl.option-list > dd > *:first-child
   display: inline-block;
   width: 100%;
   margin: 0;
-}
-/* field names followed by a colon */
-dl.field-list > dt:after,
-dl.docinfo > dt:after {
-  content: ":";
 }
 
 /* Bibliographic Fields (docinfo) */
@@ -141,12 +151,60 @@ dl.option-list > dt { font-weight: normal; }
 span.option { white-space: nowrap; }
 
 /* Footnotes and Citations  */
+
+.footnote, .citation { margin: 1em 0; } /* default paragraph skip (Firefox) */
+/* hanging indent */
+.citation { padding-left: 2em; }
+.footnote { padding-left: 1.7em; }
+.footnote.superscript { padding-left: 1.0em; }
+.citation > .label { margin-left: -2em; }
+.footnote > .label { margin-left: -1.7em; }
+.footnote.superscript > .label { margin-left: -1.0em; }
+
+.footnote > .label + *,
+.citation > .label + * {
+  display: inline-block;
+  margin-top: 0;
+  vertical-align: top;
+}
+.footnote > .backrefs + *,
+.citation > .backrefs + * {
+  margin-top: 0;
+}
+.footnote > .label + p, .footnote > .backrefs + p,
+.citation > .label + p, .citation > .backrefs + p {
+  display: inline;
+  vertical-align: inherit;
+}
+
+.backrefs { user-select: none; }
+.backrefs > a { font-style: italic; }
+
+/* superscript footnotes */
+a[role="doc-noteref"].superscript,
+.footnote.superscript > .label,
+.footnote.superscript > .backrefs {
+  vertical-align: super;
+  font-size: smaller;
+  line-height: 1;
+}
+a[role="doc-noteref"].superscript > .fn-bracket,
+.footnote.superscript > .label > .fn-bracket {
+  /* hide brackets in display but leave for copy/paste */
+  display: inline-block;
+  width: 0;
+  overflow: hidden;
+}
+[role="doc-noteref"].superscript + [role="doc-noteref"].superscript {
+  padding-left: 0.15em; /* separate consecutive footnote references */
+  /* TODO: unfortunately, "+" also selects with text between the references. */
+}
+
+/* Legacy Footnotes and Citations */
 dl.footnote.superscript > dd { margin-left: 1em; }
 dl.footnote.brackets > dd { margin-left: 2em; }
 dl.footnote > dt { font-weight: normal; }
-a.footnote-reference.brackets:before,
 dt.label > span.brackets:before { content: "["; }
-a.footnote-reference.brackets:after,
 dt.label > span.brackets:after { content: "]"; }
 a.footnote-reference.superscript,
 dl.footnote.superscript > dt.label {
@@ -165,7 +223,6 @@ dt.label > span.fn-backref > a { font-style: italic; }
   margin-right: auto;
 }
 .align-center {
-  clear: both;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -178,6 +235,12 @@ dt.label > span.fn-backref > a { font-style: italic; }
 .align-middle { vertical-align: middle; }
 .align-bottom { vertical-align: bottom; }
 
+img.align-left, img.align-center, img.align-right,
+.figure.align-left, .figure.align-center, .figure.align-right,
+object.align-left, object.align-center, object.align-right {
+  display: block;
+}
+
 /* reset inner alignment in figures and tables */
 figure.align-left, figure.align-right,
 table.align-left, table.align-center, table.align-right {
@@ -185,23 +248,13 @@ table.align-left, table.align-center, table.align-right {
 }
 
 /* Text Blocks */
-blockquote,
-div.topic,
-aside.topic {
-  margin: 1em 2em;
-}
+.topic { margin: 1em 2em; }
 .sidebar,
 .admonition,
 .system-message {
-  border: thin solid;
   margin: 1em 2em;
+  border: thin solid;
   padding: 0.5em 1em;
-}
-.sidebar {
-  width: 30%;
-  max-width: 26em;
-  float: right;
-  clear: right;
 }
 div.line-block { display: block; }
 div.line-block div.line-block, pre { margin-left: 2em; }
@@ -214,7 +267,6 @@ pre.code code:before {
 }
 
 /* Tables */
-
 td > p:first-child, th > p:first-child { margin-top: 0; }
 td > p, th > p { margin-bottom: 0; }
 
@@ -224,11 +276,20 @@ td > p, th > p { margin-bottom: 0; }
   padding-right: 0.5em /* separate table cells */
 }
 
+table > caption {
+  text-align: left;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+table.captionbelow {
+  caption-side: bottom;
+}
+
 /* CSS31_ style sheet for the output of Docutils HTML writers.             */
 /* Rules for easy reading and pre-defined style variants.                  */
 /*                                                                         */
 /* :Author: Günter Milde, based on html4css1.css by David Goodger          */
-/* :Id: $Id: plain.css 8636 2021-03-19 00:23:33Z milde $                                                               */
+/* :Id: $Id: plain.css 9081 2022-06-19 20:23:12Z milde $                                                               */
 /* :Copyright: © 2015 Günter Milde.                                        */
 /* :License: Released under the terms of the `2-Clause BSD license`_,      */
 /*    in short:                                                            */
@@ -240,11 +301,26 @@ td > p, th > p { margin-bottom: 0; }
 /*    This file is offered as-is, without any warranty.                    */
 /*                                                                         */
 /* .. _2-Clause BSD license: http://www.spdx.org/licenses/BSD-2-Clause     */
-/* .. _CSS3: http://www.w3.org/TR/CSS3                                     */
+/* .. _CSS3: https://www.w3.org/Style/CSS/                                 */
 
 
 /* Document Structure */
 /* ****************** */
+
+/* Table of Contents */
+ul.auto-toc > li > p {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+nav.contents ul {
+  padding-left: 1em;
+}
+main > nav.contents ul ul ul ul:not(.auto-toc) {
+  list-style-type: '\2B29\ ';
+}
+main > nav.contents ul ul ul ul ul:not(.auto-toc) {
+  list-style-type: '\2B1D\ ';
+}
 
 /* Transitions */
 hr.docutils {
@@ -261,30 +337,39 @@ dl > dd {
 /* Lists */
 /* ===== */
 
-/* Separate list entries in compound lists */
-dl > dd, ol > li,
-
 /* Definition Lists */
 /* Indent lists nested in definition lists */
-/* (:only-child is new in CSS 3)           */
 dd > ul:only-child, dd > ol:only-child { padding-left: 1em; }
 
 /* Description Lists */
 /* styled like in most dictionaries, encyclopedias etc. */
+dl.description {
+  display: flow-root;
+}
 dl.description > dt {
   font-weight: bold;
   clear: left;
   float: left;
   margin: 0;
   padding: 0;
-  padding-right: 0.5em;
+  padding-right: 0.3em;
+}
+dl.description > dd:after {
+  display: table;
+  content: "";
+  clear: left; /* clearfix for empty descriptions */
 }
 
 /* Field Lists */
 
+dl.field-list > dd,
+dl.docinfo > dd {
+  margin-left: var(--field-indent); /* adapted in media queries or HTML */
+}
+
 /* example for custom field-name width */
 dl.field-list.narrow > dd {
-  margin-left: 5em;
+  --field-indent: 5em;
 }
 /* run-in: start field-body on same line after long field names */
 dl.field-list.run-in > dd p {
@@ -293,8 +378,8 @@ dl.field-list.run-in > dd p {
 
 /* Bibliographic Fields */
 
-/* generally, bibliographic fields use special definition list dl.docinfo */
-/* but dedication and abstract are placed into "topic" divs */
+/* generally, bibliographic fields use dl.docinfo */
+/* but dedication and abstract are placed into divs */
 div.abstract p.topic-title {
   text-align: center;
 }
@@ -307,6 +392,10 @@ div.dedication p.topic-title {
   font-style: normal;
 }
 
+/* disclosures */
+details { padding-left: 1em; }
+summary { margin-left: -1em; }
+
 /* Text Blocks */
 /* =========== */
 
@@ -316,14 +405,9 @@ pre.math, pre.code {
   font-family: monospace;
 }
 
-/* Block Quotes */
-blockquote > table,
-div.topic > table {
-  margin-top: 0;
-  margin-bottom: 0;
-}
+/* Block Quotes and Topics */
 blockquote p.attribution,
-div.topic p.attribution {
+.topic p.attribution {
   text-align: right;
   margin-left: 20%;
 }
@@ -363,6 +447,12 @@ table.numbered > caption:before {
 /* ----------------------- */
 
 /* line on the left */
+.footnote-list {
+  border-left: solid thin;
+  padding-left: 0.25em;
+}
+
+/* same thing for old docutils versions */
 dl.footnote {
   padding-left: 1ex;
   border-left: solid;
@@ -418,9 +508,11 @@ div.error {
 aside.sidebar {
   width: 30%;
   max-width: 26em;
+  float: right;
+  clear: right;
   margin-left: 1em;
-  margin-right: -2%;
-  background-color: #ffffee;
+  margin-right: -1%;
+  background-color: #fffffa;
 }
 
 div.admonition, div.attention, div.caution, div.danger, div.error,
@@ -512,9 +604,9 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 pre.code .hll, .code .codetable .hll, .highlight pre .hll { background-color: #ffffcc }
 pre.code , .code .codetable , .highlight pre { background: #f8f8f8; }
 pre.code .c, .code .codetable .c, .highlight pre .c { color: #3D7B7B; font-style: italic } /* Comment */
-pre.code .err, .code .codetable .err, .highlight pre .err { border: 1px solid #FF0000 } /* Error */
+pre.code .err, .code .codetable .err, .highlight pre .err { border: 1px solid #F00 } /* Error */
 pre.code .k, .code .codetable .k, .highlight pre .k { color: #008000; font-weight: bold } /* Keyword */
-pre.code .o, .code .codetable .o, .highlight pre .o { color: #666666 } /* Operator */
+pre.code .o, .code .codetable .o, .highlight pre .o { color: #666 } /* Operator */
 pre.code .ch, .code .codetable .ch, .highlight pre .ch { color: #3D7B7B; font-style: italic } /* Comment.Hashbang */
 pre.code .cm, .code .codetable .cm, .highlight pre .cm { color: #3D7B7B; font-style: italic } /* Comment.Multiline */
 pre.code .cp, .code .codetable .cp, .highlight pre .cp { color: #9C6500 } /* Comment.Preproc */
@@ -523,6 +615,7 @@ pre.code .c1, .code .codetable .c1, .highlight pre .c1 { color: #3D7B7B; font-st
 pre.code .cs, .code .codetable .cs, .highlight pre .cs { color: #3D7B7B; font-style: italic } /* Comment.Special */
 pre.code .gd, .code .codetable .gd, .highlight pre .gd { color: #A00000 } /* Generic.Deleted */
 pre.code .ge, .code .codetable .ge, .highlight pre .ge { font-style: italic } /* Generic.Emph */
+pre.code .ges, .code .codetable .ges, .highlight pre .ges { font-weight: bold; font-style: italic } /* Generic.EmphStrong */
 pre.code .gr, .code .codetable .gr, .highlight pre .gr { color: #E40000 } /* Generic.Error */
 pre.code .gh, .code .codetable .gh, .highlight pre .gh { color: #000080; font-weight: bold } /* Generic.Heading */
 pre.code .gi, .code .codetable .gi, .highlight pre .gi { color: #008400 } /* Generic.Inserted */
@@ -530,34 +623,34 @@ pre.code .go, .code .codetable .go, .highlight pre .go { color: #717171 } /* Gen
 pre.code .gp, .code .codetable .gp, .highlight pre .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
 pre.code .gs, .code .codetable .gs, .highlight pre .gs { font-weight: bold } /* Generic.Strong */
 pre.code .gu, .code .codetable .gu, .highlight pre .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
-pre.code .gt, .code .codetable .gt, .highlight pre .gt { color: #0044DD } /* Generic.Traceback */
+pre.code .gt, .code .codetable .gt, .highlight pre .gt { color: #04D } /* Generic.Traceback */
 pre.code .kc, .code .codetable .kc, .highlight pre .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
 pre.code .kd, .code .codetable .kd, .highlight pre .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
 pre.code .kn, .code .codetable .kn, .highlight pre .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
 pre.code .kp, .code .codetable .kp, .highlight pre .kp { color: #008000 } /* Keyword.Pseudo */
 pre.code .kr, .code .codetable .kr, .highlight pre .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
 pre.code .kt, .code .codetable .kt, .highlight pre .kt { color: #B00040 } /* Keyword.Type */
-pre.code .m, .code .codetable .m, .highlight pre .m { color: #666666 } /* Literal.Number */
+pre.code .m, .code .codetable .m, .highlight pre .m { color: #666 } /* Literal.Number */
 pre.code .s, .code .codetable .s, .highlight pre .s { color: #BA2121 } /* Literal.String */
 pre.code .na, .code .codetable .na, .highlight pre .na { color: #687822 } /* Name.Attribute */
 pre.code .nb, .code .codetable .nb, .highlight pre .nb { color: #008000 } /* Name.Builtin */
-pre.code .nc, .code .codetable .nc, .highlight pre .nc { color: #0000FF; font-weight: bold } /* Name.Class */
-pre.code .no, .code .codetable .no, .highlight pre .no { color: #880000 } /* Name.Constant */
-pre.code .nd, .code .codetable .nd, .highlight pre .nd { color: #AA22FF } /* Name.Decorator */
+pre.code .nc, .code .codetable .nc, .highlight pre .nc { color: #00F; font-weight: bold } /* Name.Class */
+pre.code .no, .code .codetable .no, .highlight pre .no { color: #800 } /* Name.Constant */
+pre.code .nd, .code .codetable .nd, .highlight pre .nd { color: #A2F } /* Name.Decorator */
 pre.code .ni, .code .codetable .ni, .highlight pre .ni { color: #717171; font-weight: bold } /* Name.Entity */
 pre.code .ne, .code .codetable .ne, .highlight pre .ne { color: #CB3F38; font-weight: bold } /* Name.Exception */
-pre.code .nf, .code .codetable .nf, .highlight pre .nf { color: #0000FF } /* Name.Function */
+pre.code .nf, .code .codetable .nf, .highlight pre .nf { color: #00F } /* Name.Function */
 pre.code .nl, .code .codetable .nl, .highlight pre .nl { color: #767600 } /* Name.Label */
-pre.code .nn, .code .codetable .nn, .highlight pre .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+pre.code .nn, .code .codetable .nn, .highlight pre .nn { color: #00F; font-weight: bold } /* Name.Namespace */
 pre.code .nt, .code .codetable .nt, .highlight pre .nt { color: #008000; font-weight: bold } /* Name.Tag */
 pre.code .nv, .code .codetable .nv, .highlight pre .nv { color: #19177C } /* Name.Variable */
-pre.code .ow, .code .codetable .ow, .highlight pre .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
-pre.code .w, .code .codetable .w, .highlight pre .w { color: #bbbbbb } /* Text.Whitespace */
-pre.code .mb, .code .codetable .mb, .highlight pre .mb { color: #666666 } /* Literal.Number.Bin */
-pre.code .mf, .code .codetable .mf, .highlight pre .mf { color: #666666 } /* Literal.Number.Float */
-pre.code .mh, .code .codetable .mh, .highlight pre .mh { color: #666666 } /* Literal.Number.Hex */
-pre.code .mi, .code .codetable .mi, .highlight pre .mi { color: #666666 } /* Literal.Number.Integer */
-pre.code .mo, .code .codetable .mo, .highlight pre .mo { color: #666666 } /* Literal.Number.Oct */
+pre.code .ow, .code .codetable .ow, .highlight pre .ow { color: #A2F; font-weight: bold } /* Operator.Word */
+pre.code .w, .code .codetable .w, .highlight pre .w { color: #BBB } /* Text.Whitespace */
+pre.code .mb, .code .codetable .mb, .highlight pre .mb { color: #666 } /* Literal.Number.Bin */
+pre.code .mf, .code .codetable .mf, .highlight pre .mf { color: #666 } /* Literal.Number.Float */
+pre.code .mh, .code .codetable .mh, .highlight pre .mh { color: #666 } /* Literal.Number.Hex */
+pre.code .mi, .code .codetable .mi, .highlight pre .mi { color: #666 } /* Literal.Number.Integer */
+pre.code .mo, .code .codetable .mo, .highlight pre .mo { color: #666 } /* Literal.Number.Oct */
 pre.code .sa, .code .codetable .sa, .highlight pre .sa { color: #BA2121 } /* Literal.String.Affix */
 pre.code .sb, .code .codetable .sb, .highlight pre .sb { color: #BA2121 } /* Literal.String.Backtick */
 pre.code .sc, .code .codetable .sc, .highlight pre .sc { color: #BA2121 } /* Literal.String.Char */
@@ -572,12 +665,12 @@ pre.code .sr, .code .codetable .sr, .highlight pre .sr { color: #A45A77 } /* Lit
 pre.code .s1, .code .codetable .s1, .highlight pre .s1 { color: #BA2121 } /* Literal.String.Single */
 pre.code .ss, .code .codetable .ss, .highlight pre .ss { color: #19177C } /* Literal.String.Symbol */
 pre.code .bp, .code .codetable .bp, .highlight pre .bp { color: #008000 } /* Name.Builtin.Pseudo */
-pre.code .fm, .code .codetable .fm, .highlight pre .fm { color: #0000FF } /* Name.Function.Magic */
+pre.code .fm, .code .codetable .fm, .highlight pre .fm { color: #00F } /* Name.Function.Magic */
 pre.code .vc, .code .codetable .vc, .highlight pre .vc { color: #19177C } /* Name.Variable.Class */
 pre.code .vg, .code .codetable .vg, .highlight pre .vg { color: #19177C } /* Name.Variable.Global */
 pre.code .vi, .code .codetable .vi, .highlight pre .vi { color: #19177C } /* Name.Variable.Instance */
 pre.code .vm, .code .codetable .vm, .highlight pre .vm { color: #19177C } /* Name.Variable.Magic */
-pre.code .il, .code .codetable .il, .highlight pre .il { color: #666666 } /* Literal.Number.Integer.Long */
+pre.code .il, .code .codetable .il, .highlight pre .il { color: #666 } /* Literal.Number.Integer.Long */
 .highlight table, .highlight tr, .highlight td, .code table, .code tr, .code td { border-spacing: 0; border-collapse: separate; padding: 0 }
 .highlight pre, .code pre { white-space: pre-wrap; line-height: normal }
 .highlighttable td.linenos, .codetable td.linenos { vertical-align: top; padding-left: 10px; padding-right: 10px; user-select: none; -webkit-user-select: none }
@@ -993,7 +1086,7 @@ table tr th :last-child, table tr td :last-child {
     border-color: #017BFF
 }
 
-/* Center (vertical & horizontal) div withing feature-card */
+/* Center (vertical & horizontal) div within feature-card */
 .feature-card div {
     position: absolute;
     width: 100%;
