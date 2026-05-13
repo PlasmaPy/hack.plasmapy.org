@@ -1,61 +1,6 @@
 title: Plasma Hack Week
 hidetitle: True
 
-<!-- Feature Cards -->
-
-<div class="feature-row" style="margin-bottom: 16px">
-    <!-- Feature 1 -->
-    <div class="feature-column">
-        <a class="feature-link" href="https://discord.gg/HdsZkp9M35">
-        <div class="feature-card"
-              style="background: linear-gradient(to left,
-                                 var(--plasmapy-darkblue) 0%,
-                                 var(--plasmapy-light-red) 200%);">
-            <div>
-                <h1 style="color: #d8d8d8; font-weight: bold">
-                    Discord - Chat
-                </h1>
-                <!--
-                <h1 style="color: #d8d8d8; font-weight: bold">
-                    Chat
-                </h1>
-                -->
-            </div>
-        </div>
-        </a>
-    </div>
-    <!-- Feature 2 -->
-    <div class="feature-column">
-        <a class="feature-link" href="2022/about">
-        <div class="feature-card"
-              style="background-image: none;
-                     background-color: var(--plasmapy-darkblue)">
-            <div>
-                <h1 style="color: #d8d8d8; margin-bottom: 18px; font-weight: bold">
-                    2022 Hack Week
-                </h1>
-                <img src="/images/hack_logo(v7)_light.png" alt="" style="max-width: 90%">
-            </div>
-        </div>
-        </a>
-    </div>
-    <!-- Feature 3 -->
-    <div class="feature-column">
-        <a class="feature-link" href="2022/exit_survey">
-        <div class="feature-card"
-              style="background: linear-gradient(to right,
-                                 var(--plasmapy-darkblue) 0%,
-                                 var(--plasmapy-bluegreen) 200%);">
-            <div>
-                <h1 style="color: #d8d8d8; font-weight: bold">
-                    How did we do?
-                </h1>
-            </div>
-        </div>
-        </a>
-    </div>
-</div>
-
 We thank everyone for participating in **Plasma Hack Week** held both
 June 28–July 2, 2021 and July 11–15, 2022!
 
