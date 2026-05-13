@@ -55,14 +55,5 @@ own plasma formulary much like the
 For information on registering please visit our
 [registration page](../registration).
 
-For any additional questions please reach out to us on our
-[Discord channel](https://discord.gg/HdsZkp9M35).
-
-<!--
-In the week leading up to the **Plasma Hack Week**, a few more fundamentally
-focused tutorials will be presented on topics like the basics of Python, using
-version control, contributing to open-source projects, etc.
-
 For information on the schedule and pre-week tutorials please visit our
 [scheduling page](../schedule).
--->
