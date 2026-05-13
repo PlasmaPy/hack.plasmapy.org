@@ -56,11 +56,13 @@ hidetitle: True
     </div>
 </div>
 
-Hello world! We are pleased to announce the return of the **Plasma
-Hack Week**, which will be held remotely from July 11 – July 15, 2022. For
-additional information please check out the
-[2022 About page](./2022/about), and stay tuned as more details are
-released.
+We thank everyone for participating in **Plasma Hack Week** held both
+June 28–July 2, 2021 and July 11–15, 2022!
+
+Though these events have concluded, we are keeping the event webpage
+open as a community resource.
+
+For additional information please check out the [2022 About page](./2022/about)
 
 ## What is a hack week and hacking?
 
@@ -87,11 +89,6 @@ well as unstructured project time. A hack week is a chance to:
 - Write [use cases](https://en.wikipedia.org/wiki/Use_case) and
   [user stories](https://en.wikipedia.org/wiki/User_story) to support
   software projects.
-
-## Join our Discord group
-
-If you would like to participate or help plan Plasma Hack Week, please
-join the [Plasma Coders](https://discord.gg/HdsZkp9M35) group on Discord.
 
 ## Registration
 

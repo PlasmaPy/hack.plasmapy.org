@@ -11,12 +11,6 @@ tutorial lasted about an hour. This tutorial was adapted from
 Software Carpentry's [Programming with Python
 tutorial](https://swcarpentry.github.io/python-novice-inflammation/).
 
-To replicate the Python environment for this tutorial, please go to the
-following Binder link. You can access the Jupyter notebook used for the
-tutorial by opening `PythonIntro2021.ipynb`.
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PlasmaPy/hack-week-python-intro/HEAD)
-
 ## Tentative schedule
 
 Day 1

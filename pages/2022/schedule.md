@@ -6,6 +6,9 @@ hidetitle: True
 **Dates:** July 11th to July 15th <br>
 **Times:** 11:00 am to 4:00 pm EDT
 
+Thank you to everyone who attended the second **Plasma Hack Week**!
+This event has now concluded.
+
 Each day of this year's **Plasma Hack Week** is focused around hacking,
 so come prepared to code and have fun! While each day is centered
 around hacking, there will still be planned social time and lightning talks.
