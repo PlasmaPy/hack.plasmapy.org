@@ -3,6 +3,9 @@ hidetitle: True
 
 # Plasma Hack Week 2021: Schedule
 
+Thank you to everyone who attended the inaugural **Plasma Hack Week**!
+This event has now concluded.
+
 **Dates:** June 28th to July 2nd
 **Times:** 11:00 am to 4:00 pm EDT
 
