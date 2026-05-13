@@ -56,11 +56,13 @@ hidetitle: True
     </div>
 </div>
 
-Hello world! We are pleased to announce the return of the **Plasma
-Hack Week**, which will be held remotely from July 11 – July 15, 2022. For
-additional information please check out the
-[2022 About page](./2022/about), and stay tuned as more details are
-released.
+We thank everyone for participating in **Plasma Hack Week** held both
+June 28–July 2, 2021 and July 11–15, 2022!
+
+Though these events have concluded, we are keeping the event webpage
+open as a community resource.
+
+For additional information please check out the [2022 About page](./2022/about)
 
 ## What is a hack week and hacking?
 
